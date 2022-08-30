@@ -1,7 +1,7 @@
-# GNN based Recommender Systems
-An index of recommendation algorithms that are based on Graph Neural Networks.
+# Posion attacks against Recommender Systems
+An index of poison attacks against recommender systems, as well as their countermeasures.
 
-Our survey **Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions** is available on arxiv: [link](https://arxiv.org/pdf/2109.12843.pdf)
+Our systematic review **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures** is available on arxiv: [link](https://github.com/adamnguyenitvn/RS_posion_attacks)
 
 Please cite our survey paper if this index is helpful.
 ```
