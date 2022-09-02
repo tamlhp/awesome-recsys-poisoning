@@ -1,20 +1,9 @@
 # Posion attacks against Recommender Systems
-An index of poison attacks against recommender systems, as well as their countermeasures.
+A repository of poison attacks against recommender systems, as well as their countermeasures.
 
 Our systematic review **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures** is available on arxiv: [link](https://github.com/adamnguyenitvn/RS_posion_attacks)
 
-Please cite our survey paper if this index is helpful.
-<!-- ```
-@article{gao2021graph,
-  title={Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions},
-  author={Gao, Chen and Zheng, Yu and Li, Nian and Li, Yinfeng and Qin, Yingrong and Piao, Jinghua and Quan, Yuhan and Chang, Jianxin and Jin, Depeng and He, Xiangnan and others},
-  journal={arXiv preprint arXiv:2109.12843},
-  year={2021}
-}
-```
-```
-Gao, C., Zheng, Y., Li, N., Li, Y., Qin, Y., Piao, J., Quan, Y., Chang, J., Jin, D., He, X., & Li, Y. (2021). Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions. arXiv preprint arXiv:2109.12843.
-``` -->
+Please cite our survey paper if this repository is helpful.
 
 # Table of Contents
 
@@ -29,7 +18,8 @@ Gao, C., Zheng, Y., Li, N., Li, Y., Qin, Y., Piao, J., Quan, Y., Chang, J., Jin,
 ### Model-agnostic
 | **Name** | **Paper** | **Venue** | **Year** | **Code** |
 | --- | --- | --- | --- | --- |
-| GCMC | [Berg, R. V. D., Kipf, T. N., & Welling, M. (2017). Graph convolutional matrix completion. _arXiv preprint arXiv:1706.02263_.](https://arxiv.org/pdf/1706.02263.pdf) | arxiv | 2017 | [Python](https://paperswithcode.com/paper/graph-convolutional-matrix-completion) |
+| MA-1 | [Shyong K Lam and John Riedl. (2004). Shilling recommender systems for fun and profit. In Proceedings of the 13th
+international conference on World Wide Web. 393–402.](https://dl.acm.org/doi/10.1145/988672.988726) | WWW | 2004 | [Python](#) |
 | Pin-Sage | [Ying, R., He, R., Chen, K., Eksombatchai, P., Hamilton, W. L., & Leskovec, J. (2018, July). Graph convolutional neural networks for web-scale recommender systems. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (pp. 974-983).](https://arxiv.org/pdf/1806.01973) | KDD | 2018 | [Python](https://paperswithcode.com/paper/graph-convolutional-neural-networks-for-web) |
 | NGCF | [Wang, X., He, X., Wang, M., Feng, F., & Chua, T. S. (2019, July). Neural graph collaborative filtering. In _Proceedings of the 42nd international ACM SIGIR conference on Research and development in Information Retrieval_ (pp. 165-174).](https://arxiv.org/pdf/1905.08108.pdf) | SIGIR | 2019 | [Python](https://paperswithcode.com/paper/neural-graph-collaborative-filtering) |
 | DGCF | [Wang, X., Jin, H., Zhang, A., He, X., Xu, T., & Chua, T. S. (2020, July). Disentangled graph collaborative filtering. In _Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval_ (pp. 1001-1010).](https://arxiv.org/pdf/2007.01764) | SIGIR | 2020 | [Python](https://paperswithcode.com/paper/disentangled-graph-collaborative-filtering) |
