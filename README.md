@@ -18,12 +18,12 @@ Gao, C., Zheng, Y., Li, N., Li, Y., Qin, Y., Piao, J., Quan, Y., Chang, J., Jin,
 
 # Table of Contents
 
-- [Poison Attacks](#Poison Attacks)
+- [Poison Attacks](#Poison-Attacks)
    - [Model-agnostic](#Model-agnostic)
    - [Model-intrinsic](#Model-intrinsic)
-- [Detection Methods](#Detection Methods)
+- [Detection Methods](#Detection-Methods)
    - [Supervised](#Supervised)
-   - [Semi Supervised](#Semi Supervised)
+   - [Semi Supervised](#Semi-Supervised)
    - [Unsupervised](#Unsupervised)
 ## Poison Attacks
 ### Model-agnostic
