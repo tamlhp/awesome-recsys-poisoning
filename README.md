@@ -64,6 +64,5 @@ Please cite our survey paper if this repository is helpful.
 | --- | --- | --- | --- | --- |
 | IRGPR | [Liu, W., Liu, Q., Tang, R., Chen, J., He, X., & Heng, P. A. (2020, October). Personalized Re-ranking with Item Relationships for E-commerce. In _Proceedings of the 29th ACM International Conference on Information & Knowledge Management_ (pp. 925-934).](https://dl.acm.org/doi/abs/10.1145/3340531.3412332) | CIKM | 2020 | NA |
 
-Thank you for your reading.
 
 
