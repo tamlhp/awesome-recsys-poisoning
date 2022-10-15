@@ -16,7 +16,7 @@ Please cite our survey paper if this repository is helpful.
    - [Unsupervised](#Unsupervised)
 ## Poison Attacks
 ### Model-agnostic
-| **Name** | **Paper** | **Venue** | **Year** | **Code** |
+| **Name** | **Paper** | **Venue** | **Year** | **Data & Code** |
 | --- | --- | --- | --- | --- |
 | MA-1 | [Shyong K Lam and John Riedl. 2004. Shilling recommender systems for fun and profit. In Proceedings of the 13th international conference on World Wide Web. 393–402.](https://dl.acm.org/doi/10.1145/988672.988726) | WWW | 2004 | Data: [ML](https://grouplens.org/datasets/movielens/100k/) |
 | MA-2 | [Junshuai Song, Zhao Li, Zehong Hu, Yucheng Wu, Zhenpeng Li, Jian Li, and Jun Gao. 2020. Poisonrec: an adaptive data poisoning framework for attacking black-box recommender systems. In 2020 IEEE 36th International Conference on Data Engineering (ICDE). IEEE, 157–168.](https://ieeexplore.ieee.org/document/9101655/) | ICDE | 2020 | Data: [St](https://www.kaggle.com/datasets/tamber/steam-video-games), [AMV](http://jmcauley.ucsd.edu/data/amazon/), [ML](https://grouplens.org/datasets/movielens/100k/) |
@@ -32,7 +32,7 @@ Please cite our survey paper if this repository is helpful.
 | MA-12 | [Chen Lin, Si Chen, Meifang Zeng, Sheng Zhang, Min Gao, and Hui Li. 2022. Shilling Black-Box Recommender Systems by Learning to Generate Fake User Profiles. IEEE Transactions on Neural Networks and Learning Systems (2022).](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9806457) | IEEE Trans. Neural Netw. Learn. Syst | 2022 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [FT](https://guoguibing.github.io/librec/datasets.html), [YE](https://www.kaggle.com/c/yelp-recruiting/data), [AAT](http://jmcauley.ucsd.edu/data/amazon/) |
 
 ### Model-intrinsic
-| **Name** | **Paper** | **Venue** | **Year** | **Code** |
+| **Name** | **Paper** | **Venue** | **Year** | **Data & Code** |
 | --- | --- | --- | --- | --- |
 | MI-1 | [Bo Li, Yining Wang, Aarti Singh, and Yevgeniy Vorobeychik. 2016. Data poisoning attacks on factorization-based collaborative filtering. Advances in neural information processing systems 29 (2016), 1885–1893.](https://proceedings.neurips.cc/paper/2016/hash/83fa5a432ae55c253d0e60dbfa716723-Abstract.html) | NIPS | 2016 | [Python](https://github.com/fuying-wang/Data-poisoning-attacks-on-factorization-based-collaborative-filtering) |
 | MI-2 | [Guolei Yang, Neil Zhenqiang Gong, and Ying Cai. 2017. Fake Co-visitation Injection Attacks to Recommender Systems. In NDSS.](https://people.duke.edu/~zg70/papers/ndss17-attackRS.pdf) | NDSS | 2017 | NA |
@@ -54,7 +54,7 @@ Please cite our survey paper if this repository is helpful.
 
 ## Detection Methods
 ### Supervised
-| **Name** | **Paper** | **Venue** | **Year** | **Code** |
+| **Name** | **Paper** | **Venue** | **Year** | **Data & Code** |
 | --- | --- | --- | --- | --- |
 | CM-1 | [Paul-Alexandru Chirita, Wolfgang Nejdl, and Cristian Zamfir. 2005. Preventing shilling attacks in online recommender systems. In Proceedings of the 7th annual ACM international workshop on Web information and data management. 67–74.](https://dl.acm.org/doi/10.1145/1097047.1097061) | WIDM | 2005 | NA |
 | CM-2 | [Robin Burke, Bamshad Mobasher, Chad Williams, and Runa Bhaumik. 2006. Classification features for attack detection in collaborative recommender systems. In Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining. 542–547.](https://dl.acm.org/doi/10.1145/1150402.1150465) | KDD | 2006 | NA |
@@ -69,13 +69,13 @@ Please cite our survey paper if this repository is helpful.
 | CM-11 | [Quanqiang Zhou, Jinxia Wu, and Liangliang Duan. 2020. Recommendation attack detection based on deep learning. Journal of Information Security and Applications 52 (2020), 102493.](https://www.sciencedirect.com/science/article/pii/S2214212619306131) | JISA | 2020 | NA |
 
 ### Semi Supervised
-| **Name** | **Paper** | **Venue** | **Year** | **Code** |
+| **Name** | **Paper** | **Venue** | **Year** | **Data & Code** |
 | --- | --- | --- | --- | --- |
 | CM-12 | [Zhiang Wu, Junjie Wu, Jie Cao, and Dacheng Tao. 2012. HySAD: A semi-supervised hybrid shilling attack detector for trustworthy product recommendation. In Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining. 985–993.](https://dl.acm.org/doi/10.1145/2339530.2339684) | KDD | 2012 | NA |
 | CM-13 | [Jie Cao, Zhiang Wu, Bo Mao, and Yanchun Zhang. 2013. Shilling attack detection utilizing semi-supervised learning method for collaborative recommender system. World Wide Web 16, 5-6 (2013), 729–748.](https://link.springer.com/article/10.1007/s11280-012-0164-6) | WWW | 2013 | NA |
 
 ### UnSupervised
-| **Name** | **Paper** | **Venue** | **Year** | **Code** |
+| **Name** | **Paper** | **Venue** | **Year** | **Data & Code** |
 | --- | --- | --- | --- | --- |
 | CM-14 | [Sheng Zhang, Amit Chakrabarti, James Ford, and Fillia Makedon. 2006. Attack detection in time series for recommender systems. In Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining. 809–814.](https://dl.acm.org/doi/10.1145/1150402.1150508) | KDD | 2006 | NA |
 | CM-15 | [Bhaskar Mehta, Thomas Hofmann, and Peter Fankhauser. 2007. Lies and propaganda: detecting spam users in collaborative filtering. In Proceedings of the 12th international conference on Intelligent user interfaces. 14–21.](https://dl.acm.org/doi/10.1145/1216295.1216307) | IUI | 2007 | NA |
