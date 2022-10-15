@@ -50,7 +50,7 @@ Please cite our survey paper if this repository is helpful.
 | MI-14 | [Hai Huang, Jiaming Mu, Neil Zhenqiang Gong, Qi Li, Bin Liu, and Mingwei Xu. 2021. Data poisoning attacks to deep learning based recommender systems. arXiv preprint arXiv:2101.02644 (2021). [60] Keman Huang, Michael Siegel, and Stuart Madnick. 2018. Systematically underst](https://arxiv.org/pdf/2012.10544.pdf) | arXiv | 2021 | NA |
 | MI-15 | [Shijie Zhang, Hongzhi Yin, Tong Chen, Zi Huang, Quoc Viet Hung Nguyen, and Lizhen Cui. 2022. Pipattack: Poisoning federated recommender systems for manipulating item promotion. In Proceedings of the Fifteenth ACM International Conference on Web Search and Data Mining. 1415–1423.](https://dl.acm.org/doi/10.1145/3488560.3498386) | WSDM | 2022 | NA |
 | MI-16 | [Dazhong Rong, Qinming He, and Jianhai Chen. 2022. Poisoning Deep Learning based Recommender Model in Federated Learning Scenarios. arXiv preprint arXiv:2204.13594 (2022).](https://www.ijcai.org/proceedings/2022/0306.pdf) | IJCAI | 2022 | [Python](https://github.com/rdz98/PoisonFedDLRS) |
-| MI-17 | [Chuhan Wu, Fangzhao Wu, Tao Qi, Yongfeng Huang, and Xing Xie. 2022. FedAttack: Effective and Covert Poisoning Attack on Federated Recommendation via Hard Sampling. arXiv preprint arXiv:2202.04975 (2022).](https://arxiv.org/pdf/2202.04975.pdf) | Arxiv | 2022 | Data: NA \n
+| MI-17 | [Chuhan Wu, Fangzhao Wu, Tao Qi, Yongfeng Huang, and Xing Xie. 2022. FedAttack: Effective and Covert Poisoning Attack on Federated Recommendation via Hard Sampling. arXiv preprint arXiv:2202.04975 (2022).](https://arxiv.org/pdf/2202.04975.pdf) | Arxiv | 2022 | Data: NA <br>
           Code: [Python](https://github.com/wuch15/FedAttack) |
 
 ## Detection Methods
