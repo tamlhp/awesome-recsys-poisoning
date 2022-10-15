@@ -27,7 +27,9 @@ Please cite our survey paper if this repository is helpful.
 | MA-7 | [Wenqi Fan, Tyler Derr, Xiangyu Zhao, Yao Ma, Hui Liu, Jianping Wang, Jiliang Tang, and Qing Li. 2021. Attacking Black-box Recommendations via Copying Cross-domain User Profiles. In 2021 IEEE 37th International Conference on Data Engineering (ICDE). IEEE, 1583–1594.](https://ieeexplore.ieee.org/document/9458627) | ICDE | 2021 | NA |
 | MA-8 | [Julio Barbieri, Leandro GM Alvim, Filipe Braida, and Geraldo Zimbrão. 2021. Simulating real profiles for shilling attacks: A generative approach. Knowledge-Based Systems 230 (2021), 107390.](https://www.sciencedirect.com/science/article/pii/S0950705121006523) | KBS | 2021 | NA |
 | MA-9 | [Fan Wu, Min Gao, Junliang Yu, Zongwei Wang, Kecheng Liu, and Xu Wang. 2021. Ready for emerging threats to recommender systems? A graph convolution-based generative shilling attack. Information Sciences 578 (2021), 683–701.](https://www.sciencedirect.com/science/article/pii/S0020025521007313) | IS | 2021 | [Python](https://github.com/silentair/GOAT/tree/7c1747d40f9bc2b5b0ac5035770b3e9f2bbd5211) |
-
+| MA-10 | [Jingfan Chen, Wenqi Fan, Guanghui Zhu, Xiangyu Zhao, Chunfeng Yuan, Qing Li, and Yihua Huang. 2022. Knowledgeenhanced Black-box Attacks for Recommendations. In Proceedings of the 28th ACM SIGKDD Conference on KnowledgeDiscovery and Data Mining. 108–117.](https://dl.acm.org/doi/abs/10.1145/3534678.3539359) | KDD | 2022 | NA |
+| MA-11 | [Hengtong Zhang, Yaliang Li, Bolin Ding, and Jing Gao. 2022. LOKI: A Practical Data Poisoning Attack Frameworkagainst Next Item Recommendations. IEEE Transactions on Knowledge and Data Engineering](https://ieeexplore.ieee.org/document/9806383) | TKDE | 2022 | NA |
+| MA-12 | [Chen Lin, Si Chen, Meifang Zeng, Sheng Zhang, Min Gao, and Hui Li. 2022. Shilling Black-Box Recommender Systems by Learning to Generate Fake User Profiles. IEEE Transactions on Neural Networks and Learning Systems (2022).](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9806457) | IEEE Trans. Neural Netw. Learn. Syst | 2022 | NA |
 
 ### Model-intrinsic
 | **Name** | **Paper** | **Venue** | **Year** | **Code** |
@@ -47,6 +49,8 @@ Please cite our survey paper if this repository is helpful.
 | MI-13 | [Zhuoran Liu and Martha Larson. 2021. Adversarial Item Promotion: Vulnerabilities at the Core of Top-N Recommenders that Use Images to Address Cold Start. In Proceedings of the Web Conference 2021. 3590–3602.](https://dl.acm.org/doi/10.1145/3442381.3449891) | WWW | 2021 | [Python](https://github.com/liuzrcc/AIP) |
 | MI-14 | [Hai Huang, Jiaming Mu, Neil Zhenqiang Gong, Qi Li, Bin Liu, and Mingwei Xu. 2021. Data poisoning attacks to deep learning based recommender systems. arXiv preprint arXiv:2101.02644 (2021). [60] Keman Huang, Michael Siegel, and Stuart Madnick. 2018. Systematically underst](https://arxiv.org/pdf/2012.10544.pdf) | arXiv | 2021 | NA |
 | MI-15 | [Shijie Zhang, Hongzhi Yin, Tong Chen, Zi Huang, Quoc Viet Hung Nguyen, and Lizhen Cui. 2022. Pipattack: Poisoning federated recommender systems for manipulating item promotion. In Proceedings of the Fifteenth ACM International Conference on Web Search and Data Mining. 1415–1423.](https://dl.acm.org/doi/10.1145/3488560.3498386) | WSDM | 2022 | NA |
+| MI-16 | [Dazhong Rong, Qinming He, and Jianhai Chen. 2022. Poisoning Deep Learning based Recommender Model in Federated Learning Scenarios. arXiv preprint arXiv:2204.13594 (2022).](https://www.ijcai.org/proceedings/2022/0306.pdf) | IJCAI | 2022 | [Python](https://github.com/rdz98/PoisonFedDLRS) |
+| MI-17 | [Chuhan Wu, Fangzhao Wu, Tao Qi, Yongfeng Huang, and Xing Xie. 2022. FedAttack: Effective and Covert Poisoning Attack on Federated Recommendation via Hard Sampling. arXiv preprint arXiv:2202.04975 (2022).](https://arxiv.org/pdf/2202.04975.pdf) | Arxiv | 2022 | [Python](https://github.com/wuch15/FedAttack) |
 
 ## Detection Methods
 ### Supervised
