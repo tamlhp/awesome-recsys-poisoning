@@ -17,7 +17,7 @@ A repository of poison attacks against recommender systems, as well as their cou
    - [Semi Supervised](#Semi-Supervised)
    - [Unsupervised](#Unsupervised)
 ## Poison Attacks
-###Overview
+### Overview
 Poisoning attacks are the process of tampering with the training data of a  machine learning (ML) model in order to corrupt its availability and integrity. Below figure presents the typical process of a poisoning attack  compared to the normal learning process. In the latter case, an ML  model is trained based on data, which is subsequently used to derive a 
 recommendation. As such, the quality of the ML model depends on the quality of the data used for training. In a poisoning attack, data is injected into the training process, and hence the model, to produce unintended or harmful conclusions. 
 [![Attack-Process](figs/attack_process.png)](#)
