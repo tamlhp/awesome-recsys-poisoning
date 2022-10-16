@@ -51,7 +51,7 @@ A repository of poison attacks against recommender systems, as well as their cou
 ## Detection Methods
 ### Supervised
 | **Name** | **Paper** | **Venue** | **Year** |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | 
 | CM-1 | [Paul-Alexandru Chirita, Wolfgang Nejdl, and Cristian Zamfir. 2005. Preventing shilling attacks in online recommender systems. In Proceedings of the 7th annual ACM international workshop on Web information and data management. 67–74.](https://dl.acm.org/doi/10.1145/1097047.1097061) | WIDM | 2005 |
 | CM-2 | [Robin Burke, Bamshad Mobasher, Chad Williams, and Runa Bhaumik. 2006. Classification features for attack detection in collaborative recommender systems. In Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining. 542–547.](https://dl.acm.org/doi/10.1145/1150402.1150465) | KDD | 2006 | 
 | CM-3 | [Robin Burke, Bamshad Mobasher, Chad Williams, and Runa Bhaumik. 2006. Detecting profile injection attacks in collaborative recommender systems. In The 8th IEEE International Conference on E-Commerce Technology and The 3rd IEEE International Conference on Enterprise Computing, E-Commerce, and E-Services (CEC/EEE’06). IEEE, 23–23.](https://dl.acm.org/doi/10.1109/CEC-EEE.2006.34) | CEC-EEE | 2006 | 
@@ -66,7 +66,7 @@ A repository of poison attacks against recommender systems, as well as their cou
 
 ### Semi Supervised
 | **Name** | **Paper** | **Venue** | **Year** | 
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | 
 | CM-12 | [Zhiang Wu, Junjie Wu, Jie Cao, and Dacheng Tao. 2012. HySAD: A semi-supervised hybrid shilling attack detector for trustworthy product recommendation. In Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining. 985–993.](https://dl.acm.org/doi/10.1145/2339530.2339684) | KDD | 2012 | 
 | CM-13 | [Jie Cao, Zhiang Wu, Bo Mao, and Yanchun Zhang. 2013. Shilling attack detection utilizing semi-supervised learning method for collaborative recommender system. World Wide Web 16, 5-6 (2013), 729–748.](https://link.springer.com/article/10.1007/s11280-012-0164-6) | WWW | 2013 | 
 
