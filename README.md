@@ -1,9 +1,5 @@
 # Posion attacks against Recommender Systems
-A repository of poison attacks against recommender systems, as well as their countermeasures.
-
-Our systematic review **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures** is available on arxiv: [link](https://github.com/adamnguyenitvn/RS_posion_attacks)
-
-Please cite our survey paper if this repository is helpful.
+A repository of poison attacks against recommender systems, as well as their countermeasures. This repository is associated with our systematic review, entitled **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures**. 
 
 # Table of Contents
 
