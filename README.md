@@ -71,8 +71,8 @@ A repository of poison attacks against recommender systems, as well as their cou
 | CM-13 | [Jie Cao, Zhiang Wu, Bo Mao, and Yanchun Zhang. 2013. Shilling attack detection utilizing semi-supervised learning method for collaborative recommender system. World Wide Web 16, 5-6 (2013), 729–748.](https://link.springer.com/article/10.1007/s11280-012-0164-6) | WWW | 2013 | 
 
 ### UnSupervised
-| **Name** | **Paper** | **Venue** | **Year** | **Data & Code** |
-| --- | --- | --- | --- | --- |
+| **Name** | **Paper** | **Venue** | **Year** | 
+| --- | --- | --- | --- | 
 | CM-14 | [Sheng Zhang, Amit Chakrabarti, James Ford, and Fillia Makedon. 2006. Attack detection in time series for recommender systems. In Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining. 809–814.](https://dl.acm.org/doi/10.1145/1150402.1150508) | KDD | 2006 | 
 | CM-15 | [Bhaskar Mehta, Thomas Hofmann, and Peter Fankhauser. 2007. Lies and propaganda: detecting spam users in collaborative filtering. In Proceedings of the 12th international conference on Intelligent user interfaces. 14–21.](https://dl.acm.org/doi/10.1145/1216295.1216307) | IUI | 2007 | 
 | CM-16 | [Kenneth Bryan, Michael O’Mahony, and Pádraig Cunningham. 2008. Unsupervised retrieval of attack profiles in collaborative recommender systems. In Proceedings of the 2008 ACM conference on Recommender systems. 155–162.](https://dl.acm.org/doi/10.1145/1454008.1454034) | RecSys | 2008 | 
