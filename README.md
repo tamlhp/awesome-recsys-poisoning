@@ -9,6 +9,7 @@ A repository of poison attacks against recommender systems, as well as their cou
 # Table of Contents
 
 - [Poison Attacks](#Poison-Attacks)
+   - [Overview](#Overview)
    - [Model-agnostic](#Model-agnostic)
    - [Model-intrinsic](#Model-intrinsic)
 - [Detection Methods](#Detection-Methods)
@@ -16,6 +17,11 @@ A repository of poison attacks against recommender systems, as well as their cou
    - [Semi Supervised](#Semi-Supervised)
    - [Unsupervised](#Unsupervised)
 ## Poison Attacks
+###Overview
+Poisoning attacks are the process of tampering with the training data of a  machine learning (ML) model in order to corrupt its availability and integrity. Below figure presents the typical process of a poisoning attack  compared to the normal learning process. In the latter case, an ML  model is trained based on data, which is subsequently used to derive a 
+recommendation. As such, the quality of the ML model depends on the quality of the data used for training. In a poisoning attack, data is injected into the training process, and hence the model, to produce unintended or harmful conclusions. 
+[![Attack-Process](figs/attack_process.png)](#)
+
 ### Model-agnostic
 A first class of poisoning attacks has been designed to test the general robustness of a recommender
 system in terms of its trustworthiness. As such, these attacks are designed to be independent of any specific prediction model, or a specific class of such models. In the remainder of this section, we review prominent examples of such model-agnostic attacks.
