@@ -12,6 +12,9 @@ A repository of poison attacks against recommender systems, as well as their cou
    - [Unsupervised](#Unsupervised)
 ## Poison Attacks
 ### Model-agnostic
+A first class of poisoning attacks has been designed to test the general robustness of a recommender
+system in terms of its trustworthiness. As such, these attacks are designed to be independent of any specific prediction model, or a specific class of such models. In the remainder of this section, we review prominent examples of such model-agnostic attacks.
+
 | **Name** | **Paper** | **Venue** | **Year** | **Data & Code** |
 | --- | --- | --- | --- | --- |
 | MA-1 | [Shyong K Lam and John Riedl. 2004. Shilling recommender systems for fun and profit. In Proceedings of the 13th international conference on World Wide Web. 393–402.](https://dl.acm.org/doi/10.1145/988672.988726) | WWW | 2004 | Data: [ML](https://grouplens.org/datasets/movielens/100k/) |
@@ -28,6 +31,8 @@ A repository of poison attacks against recommender systems, as well as their cou
 | MA-12 | [Chen Lin, Si Chen, Meifang Zeng, Sheng Zhang, Min Gao, and Hui Li. 2022. Shilling Black-Box Recommender Systems by Learning to Generate Fake User Profiles. IEEE Transactions on Neural Networks and Learning Systems (2022).](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9806457) | IEEE Trans. Neural Netw. Learn. Syst | 2022 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [FT](https://guoguibing.github.io/librec/datasets.html), [YE](https://www.kaggle.com/c/yelp-recruiting/data), [AAT](http://jmcauley.ucsd.edu/data/amazon/) |
 
 ### Model-intrinsic
+Model-intrinsic attacks are designed and optimised for a specific type of RS. Here, we present different attacks, grouped according to the RS type, as follows
+
 | **Name** | **Paper** | **Venue** | **Year** | **Data & Code** |
 | --- | --- | --- | --- | --- |
 | MI-1 | [Bo Li, Yining Wang, Aarti Singh, and Yevgeniy Vorobeychik. 2016. Data poisoning attacks on factorization-based collaborative filtering. Advances in neural information processing systems 29 (2016), 1885–1893.](https://proceedings.neurips.cc/paper/2016/hash/83fa5a432ae55c253d0e60dbfa716723-Abstract.html) | NIPS | 2016 | Data: [ML](https://grouplens.org/datasets/movielens/100k/) <br> Code: [Python](https://github.com/fuying-wang/Data-poisoning-attacks-on-factorization-based-collaborative-filtering) |
@@ -49,6 +54,8 @@ A repository of poison attacks against recommender systems, as well as their cou
 | MI-17 | [Chuhan Wu, Fangzhao Wu, Tao Qi, Yongfeng Huang, and Xing Xie. 2022. FedAttack: Effective and Covert Poisoning Attack on Federated Recommendation via Hard Sampling. arXiv preprint arXiv:2202.04975 (2022).](https://arxiv.org/pdf/2202.04975.pdf) | Arxiv | 2022 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [ABT](http://jmcauley.ucsd.edu/data/amazon/)  <br> Code: [Python](https://github.com/wuch15/FedAttack) |
 
 ## Detection Methods
+In this section, we review detection methods in more detail, starting with supervised methods, before turning to semi-supervised methods and unsupervised methods
+
 ### Supervised
 | **Name** | **Paper** | **Venue** | **Year** |
 | --- | --- | --- | --- | 
