@@ -2,6 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![GitHub stars](https://img.shields.io/github/stars/adamnguyenitvn/RS_posion_attacks?color=yellow&label=Stars)
+![GitHub last commit](https://img.shields.io/github/last-commit/adamnguyenitvn/RS_posion_attacks)
 
 A repository of poison attacks against recommender systems, as well as their countermeasures. This repository is associated with our systematic review, entitled **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures**. 
 
