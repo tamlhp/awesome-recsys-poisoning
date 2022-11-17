@@ -1,7 +1,9 @@
 # Posion attacks against Recommender Systems
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![GitHub stars](https://img.shields.io/github/stars/adamnguyenitvn/RS_posion_attacks?color=yellow&label=Stars)
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=adamnguyenitvn.RS_posion_attacks) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/adamnguyenitvn/RS_posion_attacks)
 
 A repository of poison attacks against recommender systems, as well as their countermeasures. This repository is associated with our systematic review, entitled **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures**. 
@@ -114,4 +116,8 @@ In this section, we review detection methods in more detail, starting with super
 | CM-34 | [Yaojun Hao and Fuzhi Zhang. 2021. An unsupervised detection method for shilling attacks based on deep learning and community detection. Soft Computing 25, 1 (2021), 477–494.](https://dl.acm.org/doi/abs/10.1007/s00500-020-05162-6) | Soft Comput. | 2021 | 
 
 
+----------
+**Disclaimer**
 
+If you have any comments or questions, please feel free to contact us.
+Emails: <u>henry.nguyen@griffith.edu.au</u>, <u>henry.nguyen@griffith.edu.au</u>
