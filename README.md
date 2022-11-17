@@ -119,5 +119,4 @@ In this section, we review detection methods in more detail, starting with super
 ----------
 **Disclaimer**
 
-If you have any comments or questions, please feel free to contact us.
-Emails: <u>henry.nguyen@griffith.edu.au</u>, <u>henry.nguyen@griffith.edu.au</u>
+If you have any comments or questions, please feel free to contact us via email: <u>henry.nguyen@griffith.edu.au</u>.
