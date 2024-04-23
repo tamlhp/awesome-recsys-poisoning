@@ -14,7 +14,7 @@ A repository of poison attacks against recommender systems, as well as their cou
 - [Poison Attacks](#Poison-Attacks)
    - [Model-agnostic](#Model-agnostic)
    - [Model-intrinsic](#Model-intrinsic)
-- [Detection Methods](#Detection-Methods)
+- [Countermeasures](#Countermeasures)
    - [Supervised](#Supervised)
    - [Semi Supervised](#Semi-Supervised)
    - [Unsupervised](#Unsupervised)
@@ -81,7 +81,7 @@ recommendation. As such, the quality of the ML model depends on the quality of t
 
 ----------
 
-## Detection Methods
+## Countermeasures
 In this section, we review detection methods in more detail, starting with supervised methods, before turning to semi-supervised methods and unsupervised methods
 
 
