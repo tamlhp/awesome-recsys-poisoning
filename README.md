@@ -1,10 +1,10 @@
 # Posion attacks against Recommender Systems
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-![GitHub stars](https://img.shields.io/github/stars/adamnguyenitvn/RS_posion_attacks?color=yellow&label=Stars)
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=adamnguyenitvn.RS_posion_attacks) 
-![GitHub last commit](https://img.shields.io/github/last-commit/adamnguyenitvn/RS_posion_attacks)
+[![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=Official%20Website&up_color=green&up_message=online&url=https%3A%2F%2Fawesome-recsys-poisoning.github.io%2F)](https://awesome-recsys-poisoning.github.io/)
+![GitHub stars](https://img.shields.io/github/stars/tamlhp/awesome-recsys-poisoning?color=yellow&label=Stars)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftamlhp%2Fawesome-recsys-poisoning%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/>
 
 A repository of poison attacks against recommender systems, as well as their countermeasures. This repository is associated with our systematic review, entitled **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures**. 
 
@@ -18,11 +18,14 @@ A repository of poison attacks against recommender systems, as well as their cou
    - [Supervised](#Supervised)
    - [Semi Supervised](#Semi-Supervised)
    - [Unsupervised](#Unsupervised)
+
+
 ## Poison Attacks
 ### Overview
 Poisoning attacks are the process of tampering with the training data of a  machine learning (ML) model in order to corrupt its availability and integrity. Below figure presents the typical process of a poisoning attack  compared to the normal learning process. In the latter case, an ML  model is trained based on data, which is subsequently used to derive a 
 recommendation. As such, the quality of the ML model depends on the quality of the data used for training. In a poisoning attack, data is injected into the training process, and hence the model, to produce unintended or harmful conclusions. 
 [![Attack-Process](figs/attack_process.png)](#)
+
 
 ### Model-agnostic
 A first class of poisoning attacks has been designed to test the general robustness of a recommender
@@ -122,4 +125,12 @@ In this section, we review detection methods in more detail, starting with super
 ----------
 **Disclaimer**
 
-If you have any comments or questions, please feel free to contact us via email: <u>henry.nguyen@griffith.edu.au</u>.
+Feel free to contact us if you have any queries or exciting news. In addition, we welcome all researchers to contribute to this repository and further contribute to the knowledge of this field.
+
+If you have some other related references, please feel free to create a Github issue with the paper information. We will glady update the repos according to your suggestions. (You can also create pull requests, but it might take some time for us to do the merge)
+
+
+[![HitCount](https://hits.dwyl.com/tamlhp/awesome-recsys-poisoning.svg?style=flat-square)](http://hits.dwyl.com/tamlhp/awesome-recsys-poisoning)
+ ![visitors](https://visitor-badge.laobi.icu/badge?page_id=tamlhp.awesome-recsys-poisoning)
+
+
