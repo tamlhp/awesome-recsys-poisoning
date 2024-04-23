@@ -27,6 +27,16 @@ A sortable version is available here: https://awesome-recsys-poisoning.github.io
 
 ## Existing Surveys
 
+| **Paper Title** | **Venue** | **Year** | **Note** |
+| --------------- | ---- | ---- | ---- | 
+| [Poisoning Attacks against Recommender Systems: A Survey](https://arxiv.org/abs/2401.01527) | arXiv | 2024 | Focus on benchmarking |
+| [Manipulating vulnerability: Poisoning attacks and countermeasures in federated cloud–edge–client learning for image classification](https://www.sciencedirect.com/science/article/pii/S0950705122011650) | KBS | 2023 | Focus on federated learning |
+| [A Survey on Data Poisoning Attacks and Defenses](https://ieeexplore.ieee.org/abstract/document/9900151) | DSC | 2022 | Not focus on recommender systems |
+| [A survey of attack detection approaches in collaborative filtering recommender systems](https://link.springer.com/article/10.1007/s10462-020-09898-3) | Artificial Intelligence Review | 2021 | Classic heuristic attacks only |
+| [Understanding Shilling Attacks and Their Detection Traits: A Comprehensive Survey](https://ieeexplore.ieee.org/abstract/document/9205244) | IEEE Access | 2020 | Classic heuristic attacks only |
+| [Shilling attacks against collaborative recommender systems: a review](https://link.springer.com/article/10.1007/s10462-018-9655-x) | Artificial Intelligence Review  | 2020 | Classic heuristic attacks only |
+| [A Comparative Study on Shilling Detection Methods for Trustworthy Recommendations](https://link.springer.com/article/10.1007/s11518-018-5374-8) | SESC |  2018 | Classic heuristic attacks only |
+| [A comparative study of shilling attack detectors for recommender systems](https://ieeexplore.ieee.org/abstract/document/7170330) | ICSSSM | 2015 | Classic heuristic attacks only |
 
 ----------
 
