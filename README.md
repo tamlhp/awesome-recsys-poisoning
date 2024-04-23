@@ -85,43 +85,43 @@ recommendation. As such, the quality of the ML model depends on the quality of t
 In this section, we review detection methods in more detail, starting with supervised methods, before turning to semi-supervised methods and unsupervised methods
 
 
-| **Paper** | **Venue** | **Year** | **Type** | **Code** |
+| **Paper** | **Venue** | **Year** | **Type** | **Data** | **Code** |
 | --- | --- | --- | --- | --- |
-| [Anti-FakeU: Defending Shilling Attacks on Graph Neural Network based Recommender Model](https://doi.org/10.1145/3543507.3583289) | WWW | 2023 | UnSupervised | - |
-| [An unsupervised detection method for shilling attacks based on deep learning and community detection](https://dl.acm.org/doi/abs/10.1007/s00500-020-05162-6) | Soft Comput. | 2021 | UnSupervised | - |
-| [Identification of Malicious Injection Attacks in Dense Rating and Co-Visitation Behaviors](https://dl.acm.org/doi/10.1109/TIFS.2020.3016827) | TIFS | 2020 | UnSupervised | - |
-| [Recommendation attack detection based on deep learning](https://www.sciencedirect.com/science/article/pii/S2214212619306131) | JISA | 2020 | Supervised | - |
-| [Detecting shilling attacks with automatic features from multiple views](https://www.hindawi.com/journals/scn/2019/6523183/) | Secur. Commun. Netw. | 2019 | Supervised | - |
-| [Detecting shilling attacks in social recommender systems based on time series analysis and trust features](https://dl.acm.org/doi/abs/10.1016/j.knosys.2019.04.012) | KBS | 2019 | Supervised | - |
-| [BS-SC: An Unsupervised Approach for Detecting Shilling Profiles in Collaborative Recommender Systems](https://ieeexplore.ieee.org/document/8862947) | TKDE | 2019 | UnSupervised | - |
-| [Detecting shilling attacks in recommender systems based on analysis of user rating behavior](https://dl.acm.org/doi/abs/10.1016/j.knosys.2019.04.001) | KBS | 2019 | UnSupervised | - |
-| [Trustworthy and profit: A new value-based neighbor selection method in recommender systems under shilling attacks](https://dl.acm.org/doi/10.1016/j.dss.2019.113112) | DSS | 2019 | UnSupervised | - |
-| [Quick and accurate attack detection in recommender systems through user attributes](https://dl.acm.org/doi/10.1145/3298689.3347050) | RecSys | 2019 | UnSupervised | - |
-| [UD-HMM: An unsupervised method for shilling attack detection based on hidden Markov model and hierarchical clustering](https://www.sciencedirect.com/science/article/pii/S0950705118300959) | KBS | 2018 | UnSupervised | - |
-| [Shilling attack detection for recommender systems based on credibility of group users and rating time series](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196533) | Plos One | 2018 | UnSupervised | - |
-| [Spotting anomalous ratings for rating systems by analyzing target users and items](https://dl.acm.org/doi/abs/10.1016/j.neucom.2017.02.052) | Neurocomputing | 2017 | UnSupervised | - | 
-| [Estimating user behavior toward detecting anomalous ratings in rating systems](https://dl.acm.org/doi/10.1016/j.knosys.2016.08.011) | KBS | 2016 | UnSupervised | - |
-| [SVM-TIA a shilling attack detection method based on SVM and target item analysis in recommender systems](https://dl.acm.org/doi/10.1016/j.neucom.2015.12.137) | J. Neucom. | 2016 | Supervised | - |
-| [Re-scale AdaBoost for attack detection in collaborative filtering recommender systems](https://www.sciencedirect.com/science/article/pii/S0950705116000861) | KBS | 2016 | Supervised | - |
-| [Catch the black sheep: unified framework for shilling attack detection based on fraudulent action propagation](https://dl.acm.org/doi/10.5555/2832581.2832585) | IJCAI | 2015 | UnSupervised | - |
-| [Shilling attacks detection in recommender systems based on target item analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0130968) | Plos One | 2015 | UnSupervised | - |
-| [A novel item anomaly detection approach against shilling attacks in collaborative recommendation systems using the dynamic time interval segmentation technique](https://dl.acm.org/doi/abs/10.1016/j.ins.2015.02.019) | IS | 2015 | UnSupervised | - |
-| [A novel shilling attack detection method](https://www.sciencedirect.com/science/article/pii/S1877050914004347) | Procedia Comput. Sci. | 2014 | UnSupervised | - |
-| [Detection of abnormal profiles on group attacks in recommender systems](https://dl.acm.org/doi/10.1145/2600428.2609483) | SIGIR | 2014 | UnSupervised | - |
-| [HHT–SVM: An online method for detecting profile injection attacks in collaborative recommender systems](https://www.sciencedirect.com/science/article/pii/S0950705114001427) | KBS | 2014 | Supervised | - |
-| [Shilling attack detection utilizing semi-supervised learning method for collaborative recommender system](https://link.springer.com/article/10.1007/s11280-012-0164-6) | WWW | 2013 | Semi Supervised | - |
-| [𝛽P: A novel approach to filter out malicious rating profiles from recommender systems](https://dl.acm.org/doi/abs/10.1016/j.dss.2013.01.020) | DSS | 2013 | UnSupervised | - |
-| [A Meta-learning-based Approach for Detecting Profile Injection Attacks in Collaborative Recommender Systems](http://www.jcomputers.us/vol7/jcp0701-26.pdf) | J. Comput. | 2012 | Supervised | - |
-| [HySAD: A semi-supervised hybrid shilling attack detector for trustworthy product recommendation](https://dl.acm.org/doi/10.1145/2339530.2339684) | KDD | 2012 | Semi Supervised | - |
-| [A clustering approach to unsupervised attack detection in collaborative recommender systems](https://www.semanticscholar.org/paper/A-Clustering-Approach-to-Unsupervised-Attack-in-Bhaumik-Mobasher/5da857634542a5d2e9b67158fbe2d93afc99412c) | ICDATA | 2011 | UnSupervised | - |
-| [Unsupervised strategies for shilling detection and robust collaborative filtering](https://link.springer.com/article/10.1007/s11257-008-9050-4) | User Model. User-Adapt. Interact. | 2009 | UnSupervised | - |
-| [Unsupervised retrieval of attack profiles in collaborative recommender systems](https://dl.acm.org/doi/10.1145/1454008.1454034) | RecSys | 2008 | UnSupervised | - |
-| [Lies and propaganda: detecting spam users in collaborative filtering](https://dl.acm.org/doi/10.1145/1216295.1216307) | IUI | 2007 | UnSupervised | - |
-| [Toward trustworthy recommender systems: An analysis of attack models and algorithm robustness](https://dl.acm.org/doi/10.1145/1278366.1278372) | TOIT | 2007 | Supervised | - |
-| [Classification features for attack detection in collaborative recommender systems](https://dl.acm.org/doi/10.1145/1150402.1150465) | KDD | 2006 | Supervised | - |
-| [Detecting profile injection attacks in collaborative recommender systems](https://dl.acm.org/doi/10.1109/CEC-EEE.2006.34) | CEC-EEE | 2006 | Supervised | - |
-| [Attack detection in time series for recommender systems](https://dl.acm.org/doi/10.1145/1150402.1150508) | KDD | 2006 | UnSupervised | - |
-| [Preventing shilling attacks in online recommender systems](https://dl.acm.org/doi/10.1145/1097047.1097061) | WIDM | 2005 | Supervised | - |
+| [Anti-FakeU: Defending Shilling Attacks on Graph Neural Network based Recommender Model](https://doi.org/10.1145/3543507.3583289) | WWW | 2023 | UnSupervised | - | - |
+| [An unsupervised detection method for shilling attacks based on deep learning and community detection](https://dl.acm.org/doi/abs/10.1007/s00500-020-05162-6) | Soft Comput. | 2021 | UnSupervised | - | - |
+| [Identification of Malicious Injection Attacks in Dense Rating and Co-Visitation Behaviors](https://dl.acm.org/doi/10.1109/TIFS.2020.3016827) | TIFS | 2020 | UnSupervised | - | - |
+| [Recommendation attack detection based on deep learning](https://www.sciencedirect.com/science/article/pii/S2214212619306131) | JISA | 2020 | Supervised | - | - |
+| [Detecting shilling attacks with automatic features from multiple views](https://www.hindawi.com/journals/scn/2019/6523183/) | Secur. Commun. Netw. | 2019 | Supervised | - | - |
+| [Detecting shilling attacks in social recommender systems based on time series analysis and trust features](https://dl.acm.org/doi/abs/10.1016/j.knosys.2019.04.012) | KBS | 2019 | Supervised | - | - |
+| [BS-SC: An Unsupervised Approach for Detecting Shilling Profiles in Collaborative Recommender Systems](https://ieeexplore.ieee.org/document/8862947) | TKDE | 2019 | UnSupervised | - | - |
+| [Detecting shilling attacks in recommender systems based on analysis of user rating behavior](https://dl.acm.org/doi/abs/10.1016/j.knosys.2019.04.001) | KBS | 2019 | UnSupervised | - | - |
+| [Trustworthy and profit: A new value-based neighbor selection method in recommender systems under shilling attacks](https://dl.acm.org/doi/10.1016/j.dss.2019.113112) | DSS | 2019 | UnSupervised | - | - |
+| [Quick and accurate attack detection in recommender systems through user attributes](https://dl.acm.org/doi/10.1145/3298689.3347050) | RecSys | 2019 | UnSupervised | - | - |
+| [UD-HMM: An unsupervised method for shilling attack detection based on hidden Markov model and hierarchical clustering](https://www.sciencedirect.com/science/article/pii/S0950705118300959) | KBS | 2018 | UnSupervised | - | - |
+| [Shilling attack detection for recommender systems based on credibility of group users and rating time series](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196533) | Plos One | 2018 | UnSupervised | - | - |
+| [Spotting anomalous ratings for rating systems by analyzing target users and items](https://dl.acm.org/doi/abs/10.1016/j.neucom.2017.02.052) | Neurocomputing | 2017 | UnSupervised | - | - | 
+| [Estimating user behavior toward detecting anomalous ratings in rating systems](https://dl.acm.org/doi/10.1016/j.knosys.2016.08.011) | KBS | 2016 | UnSupervised | - | - |
+| [SVM-TIA a shilling attack detection method based on SVM and target item analysis in recommender systems](https://dl.acm.org/doi/10.1016/j.neucom.2015.12.137) | J. Neucom. | 2016 | Supervised | - | - |
+| [Re-scale AdaBoost for attack detection in collaborative filtering recommender systems](https://www.sciencedirect.com/science/article/pii/S0950705116000861) | KBS | 2016 | Supervised | - | - |
+| [Catch the black sheep: unified framework for shilling attack detection based on fraudulent action propagation](https://dl.acm.org/doi/10.5555/2832581.2832585) | IJCAI | 2015 | UnSupervised | - | - |
+| [Shilling attacks detection in recommender systems based on target item analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0130968) | Plos One | 2015 | UnSupervised | - | - |
+| [A novel item anomaly detection approach against shilling attacks in collaborative recommendation systems using the dynamic time interval segmentation technique](https://dl.acm.org/doi/abs/10.1016/j.ins.2015.02.019) | IS | 2015 | UnSupervised | - | - |
+| [A novel shilling attack detection method](https://www.sciencedirect.com/science/article/pii/S1877050914004347) | Procedia Comput. Sci. | 2014 | UnSupervised | - | - |
+| [Detection of abnormal profiles on group attacks in recommender systems](https://dl.acm.org/doi/10.1145/2600428.2609483) | SIGIR | 2014 | UnSupervised | - | - |
+| [HHT–SVM: An online method for detecting profile injection attacks in collaborative recommender systems](https://www.sciencedirect.com/science/article/pii/S0950705114001427) | KBS | 2014 | Supervised | - | - |
+| [Shilling attack detection utilizing semi-supervised learning method for collaborative recommender system](https://link.springer.com/article/10.1007/s11280-012-0164-6) | WWW | 2013 | Semi Supervised | - | - |
+| [𝛽P: A novel approach to filter out malicious rating profiles from recommender systems](https://dl.acm.org/doi/abs/10.1016/j.dss.2013.01.020) | DSS | 2013 | UnSupervised | - | - |
+| [A Meta-learning-based Approach for Detecting Profile Injection Attacks in Collaborative Recommender Systems](http://www.jcomputers.us/vol7/jcp0701-26.pdf) | J. Comput. | 2012 | Supervised | - | - |
+| [HySAD: A semi-supervised hybrid shilling attack detector for trustworthy product recommendation](https://dl.acm.org/doi/10.1145/2339530.2339684) | KDD | 2012 | Semi Supervised | - | - |
+| [A clustering approach to unsupervised attack detection in collaborative recommender systems](https://www.semanticscholar.org/paper/A-Clustering-Approach-to-Unsupervised-Attack-in-Bhaumik-Mobasher/5da857634542a5d2e9b67158fbe2d93afc99412c) | ICDATA | 2011 | UnSupervised | - | - |
+| [Unsupervised strategies for shilling detection and robust collaborative filtering](https://link.springer.com/article/10.1007/s11257-008-9050-4) | User Model. User-Adapt. Interact. | 2009 | UnSupervised | - | - |
+| [Unsupervised retrieval of attack profiles in collaborative recommender systems](https://dl.acm.org/doi/10.1145/1454008.1454034) | RecSys | 2008 | UnSupervised | - | - |
+| [Lies and propaganda: detecting spam users in collaborative filtering](https://dl.acm.org/doi/10.1145/1216295.1216307) | IUI | 2007 | UnSupervised | - | - |
+| [Toward trustworthy recommender systems: An analysis of attack models and algorithm robustness](https://dl.acm.org/doi/10.1145/1278366.1278372) | TOIT | 2007 | Supervised | - | - |
+| [Classification features for attack detection in collaborative recommender systems](https://dl.acm.org/doi/10.1145/1150402.1150465) | KDD | 2006 | Supervised | - | - |
+| [Detecting profile injection attacks in collaborative recommender systems](https://dl.acm.org/doi/10.1109/CEC-EEE.2006.34) | CEC-EEE | 2006 | Supervised | - | - |
+| [Attack detection in time series for recommender systems](https://dl.acm.org/doi/10.1145/1150402.1150508) | KDD | 2006 | UnSupervised | - | - |
+| [Preventing shilling attacks in online recommender systems](https://dl.acm.org/doi/10.1145/1097047.1097061) | WIDM | 2005 | Supervised | - | - |
 
 
 ----------
