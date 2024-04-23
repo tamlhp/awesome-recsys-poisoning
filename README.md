@@ -86,7 +86,7 @@ In this section, we review detection methods in more detail, starting with super
 
 
 | **Paper** | **Venue** | **Year** | **Type** | **Data** | **Code** |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | [Anti-FakeU: Defending Shilling Attacks on Graph Neural Network based Recommender Model](https://doi.org/10.1145/3543507.3583289) | WWW | 2023 | UnSupervised | - | - |
 | [An unsupervised detection method for shilling attacks based on deep learning and community detection](https://dl.acm.org/doi/abs/10.1007/s00500-020-05162-6) | Soft Comput. | 2021 | UnSupervised | - | - |
 | [Identification of Malicious Injection Attacks in Dense Rating and Co-Visitation Behaviors](https://dl.acm.org/doi/10.1109/TIFS.2020.3016827) | TIFS | 2020 | UnSupervised | - | - |
