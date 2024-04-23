@@ -124,6 +124,15 @@ In this section, we review detection methods in more detail, starting with super
 | [Preventing shilling attacks in online recommender systems](https://dl.acm.org/doi/10.1145/1097047.1097061) | WIDM | 2005 | Supervised | - |
 
 
+----------
+
+## Datasets
+
+| Dataset | Name |
+| :-- | --- |
+| YT | Youtube |
+| eB | Ebay |
+
 
 
 ----------
