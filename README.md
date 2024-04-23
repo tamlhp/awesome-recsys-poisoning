@@ -45,50 +45,40 @@ recommendation. As such, the quality of the ML model depends on the quality of t
 [![Attack-Process](figs/attack_process.png)](https://arxiv.org)
 
 
-### Model-agnostic
-A first class of poisoning attacks has been designed to test the general robustness of a recommender
-system in terms of its trustworthiness. As such, these attacks are designed to be independent of any specific prediction model, or a specific class of such models. In the remainder of this section, we review prominent examples of such model-agnostic attacks.
-
 | **Paper** | **Venue** | **Year** | **Type** | **Data & Code** |
 | --- | --- | --- | --- | --- |
-| [Shilling recommender systems for fun and profit](https://dl.acm.org/doi/10.1145/988672.988726) | WWW | 2004 | Data: [ML](https://grouplens.org/datasets/movielens/100k/) |
-| [Poisonrec: an adaptive data poisoning framework for attacking black-box recommender systems](https://ieeexplore.ieee.org/document/9101655/) | ICDE | 2020 | Data: [St](https://www.kaggle.com/datasets/tamber/steam-video-games), [AMV](http://jmcauley.ucsd.edu/data/amazon/), [ML](https://grouplens.org/datasets/movielens/100k/) |
-| [Revisiting adversarially learned injection attacks against recommender systems](https://dl.acm.org/doi/10.1145/3383313.3412243) | RecSys | 2020 | Data: [GOW](http://snap.stanford.edu/data/loc-Gowalla.html) <br> Code: [Python](https://github.com/graytowne/revisit_adv_rec) |
-| [Attacking recommender systems with augmented user profiles](https://dl.acm.org/doi/10.1145/3340531.3411884) | CIKM | 2020 | Data:  [ML](https://grouplens.org/datasets/movielens/100k/), [FT](https://guoguibing.github.io/librec/datasets.html), [AAT](http://jmcauley.ucsd.edu/data/amazon/) |
-| [Triple Adversarial Learning for Influence based Poisoning Attack in Recommender Systems](https://dl.acm.org/doi/10.1145/3447548.3467335) | KDD | 2021 | Data:  [ML](https://grouplens.org/datasets/movielens/100k/), [FT](https://guoguibing.github.io/librec/datasets.html) <br> Code: [Python](https://github.com/Daftstone/TrialAttack) |
-| [Reverse Attack: Black-box Attacks on Collaborative Recommendation](https://dl.acm.org/doi/10.1145/3460120.3484805) | CSS | 2021 | Data:  [ML](https://grouplens.org/datasets/movielens/100k/), [NF](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data), [AMB & ADM](http://jmcauley.ucsd.edu/data/amazon/), [TW](https://dl.acm.org/doi/10.1145/1772690.1772751), [G+](https://dl.acm.org/doi/10.5555/2999134.2999195), [CIT](https://www.aminer.org/citation/)  |
-| [Attacking Black-box Recommendations via Copying Cross-domain User Profiles](https://ieeexplore.ieee.org/document/9458627) | ICDE | 2021 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [NF](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data) |
-| [Simulating real profiles for shilling attacks: A generative approach](https://www.sciencedirect.com/science/article/pii/S0950705121006523) | KBS | 2021 | Data: [ML](https://grouplens.org/datasets/movielens/100k/) |
-| [Ready for emerging threats to recommender systems? A graph convolution-based generative shilling attack](https://www.sciencedirect.com/science/article/pii/S0020025521007313) | IS | 2021 | Data: [DB](https://www.kaggle.com/datasets/fengzhujoey/douban-datasetratingreviewside-information), [CI](https://paperswithcode.com/dataset/ciao) <br> Code: [Python](https://github.com/silentair/GOAT/tree/7c1747d40f9bc2b5b0ac5035770b3e9f2bbd5211) |
-| [Knowledgeenhanced Black-box Attacks for Recommendations](https://dl.acm.org/doi/abs/10.1145/3534678.3539359) | KDD | 2022 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [BC](https://www.kaggle.com/datasets/somnambwl/bookcrossing-dataset), [LA](http://millionsongdataset.com/lastfm/)  |
-| [LOKI: A Practical Data Poisoning Attack Frameworkagainst Next Item Recommendations](https://ieeexplore.ieee.org/document/9806383) | TKDE | 2022 | Data: [ABT](http://jmcauley.ucsd.edu/data/amazon/), [St](https://www.kaggle.com/datasets/tamber/steam-video-games),[GOW](http://snap.stanford.edu/data/loc-Gowalla.html)  |
-| [Shilling Black-Box Recommender Systems by Learning to Generate Fake User Profiles](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9806457) | IEEE Trans. Neural Netw. Learn. Syst | 2022 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [FT](https://guoguibing.github.io/librec/datasets.html), [YE](https://www.kaggle.com/c/yelp-recruiting/data), [AAT](http://jmcauley.ucsd.edu/data/amazon/) |
+| [Shilling recommender systems for fun and profit](https://dl.acm.org/doi/10.1145/988672.988726) | WWW | 2004 | Model-agnostic | Data: [ML](https://grouplens.org/datasets/movielens/100k/) |
+| [Poisonrec: an adaptive data poisoning framework for attacking black-box recommender systems](https://ieeexplore.ieee.org/document/9101655/) | ICDE | 2020 | Model-agnostic | Data: [St](https://www.kaggle.com/datasets/tamber/steam-video-games), [AMV](http://jmcauley.ucsd.edu/data/amazon/), [ML](https://grouplens.org/datasets/movielens/100k/) |
+| [Revisiting adversarially learned injection attacks against recommender systems](https://dl.acm.org/doi/10.1145/3383313.3412243) | RecSys | 2020 | Model-agnostic | Data: [GOW](http://snap.stanford.edu/data/loc-Gowalla.html) <br> Code: [Python](https://github.com/graytowne/revisit_adv_rec) |
+| [Attacking recommender systems with augmented user profiles](https://dl.acm.org/doi/10.1145/3340531.3411884) | CIKM | 2020 | Model-agnostic | Data:  [ML](https://grouplens.org/datasets/movielens/100k/), [FT](https://guoguibing.github.io/librec/datasets.html), [AAT](http://jmcauley.ucsd.edu/data/amazon/) |
+| [Triple Adversarial Learning for Influence based Poisoning Attack in Recommender Systems](https://dl.acm.org/doi/10.1145/3447548.3467335) | KDD | 2021 | Model-agnostic | Data:  [ML](https://grouplens.org/datasets/movielens/100k/), [FT](https://guoguibing.github.io/librec/datasets.html) <br> Code: [Python](https://github.com/Daftstone/TrialAttack) |
+| [Reverse Attack: Black-box Attacks on Collaborative Recommendation](https://dl.acm.org/doi/10.1145/3460120.3484805) | CSS | 2021 | Model-agnostic | Data:  [ML](https://grouplens.org/datasets/movielens/100k/), [NF](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data), [AMB & ADM](http://jmcauley.ucsd.edu/data/amazon/), [TW](https://dl.acm.org/doi/10.1145/1772690.1772751), [G+](https://dl.acm.org/doi/10.5555/2999134.2999195), [CIT](https://www.aminer.org/citation/)  |
+| [Attacking Black-box Recommendations via Copying Cross-domain User Profiles](https://ieeexplore.ieee.org/document/9458627) | ICDE | 2021 | Model-agnostic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [NF](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data) |
+| [Simulating real profiles for shilling attacks: A generative approach](https://www.sciencedirect.com/science/article/pii/S0950705121006523) | KBS | 2021 | Model-agnostic | Data: [ML](https://grouplens.org/datasets/movielens/100k/) |
+| [Ready for emerging threats to recommender systems? A graph convolution-based generative shilling attack](https://www.sciencedirect.com/science/article/pii/S0020025521007313) | IS | 2021 | Model-agnostic | Data: [DB](https://www.kaggle.com/datasets/fengzhujoey/douban-datasetratingreviewside-information), [CI](https://paperswithcode.com/dataset/ciao) <br> Code: [Python](https://github.com/silentair/GOAT/tree/7c1747d40f9bc2b5b0ac5035770b3e9f2bbd5211) |
+| [Knowledgeenhanced Black-box Attacks for Recommendations](https://dl.acm.org/doi/abs/10.1145/3534678.3539359) | KDD | 2022 | Model-agnostic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [BC](https://www.kaggle.com/datasets/somnambwl/bookcrossing-dataset), [LA](http://millionsongdataset.com/lastfm/)  |
+| [LOKI: A Practical Data Poisoning Attack Frameworkagainst Next Item Recommendations](https://ieeexplore.ieee.org/document/9806383) | TKDE | 2022 | Model-agnostic | Data: [ABT](http://jmcauley.ucsd.edu/data/amazon/), [St](https://www.kaggle.com/datasets/tamber/steam-video-games),[GOW](http://snap.stanford.edu/data/loc-Gowalla.html)  |
+| [Shilling Black-Box Recommender Systems by Learning to Generate Fake User Profiles](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9806457) | IEEE Trans. Neural Netw. Learn. Syst | 2022 | Model-agnostic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [FT](https://guoguibing.github.io/librec/datasets.html), [YE](https://www.kaggle.com/c/yelp-recruiting/data), [AAT](http://jmcauley.ucsd.edu/data/amazon/) |
 
-
-### Model-intrinsic
-Model-intrinsic attacks are designed and optimised for a specific type of RS. Here, we present different attacks, grouped according to the RS type, as follows
-
-| **Paper** | **Venue** | **Year** | **Data & Code** |
-| --- | --- | --- | --- |
-| [Data poisoning attacks on factorization-based collaborative filtering](https://proceedings.neurips.cc/paper/2016/hash/83fa5a432ae55c253d0e60dbfa716723-Abstract.html) | NIPS | 2016 | Data: [ML](https://grouplens.org/datasets/movielens/100k/) <br> Code: [Python](https://github.com/fuying-wang/Data-poisoning-attacks-on-factorization-based-collaborative-filtering) |
-| [Fake Co-visitation Injection Attacks to Recommender Systems](https://people.duke.edu/~zg70/papers/ndss17-attackRS.pdf) | NDSS | 2017 | Data: [YT](https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset), [eB](https://www.kaggle.com/datasets/promptcloud/ebay-product-listing-dataset), [AMV](http://jmcauley.ucsd.edu/data/amazon/), [YE](https://www.kaggle.com/c/yelp-recruiting/data), [LI](https://www.kaggle.com/datasets/killbot/linkedin) |
-| [Poisoning attacks to graph-based recommender systems](https://dl.acm.org/doi/10.1145/3274694.3274706) | ACSAC | 2018 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [AMV](http://jmcauley.ucsd.edu/data/amazon/) |
-| [Adversarial attacks on an oblivious recommender](https://dl.acm.org/doi/10.1145/3298689.3347031) | RecSys | 2019 | Data: [ML](https://grouplens.org/datasets/movielens/100k/) |
-| [Targeted poisoning attacks on social recommender systems](https://ieeexplore.ieee.org/document/9013539) | GLOBECOM | 2019 | Data: [FT](https://guoguibing.github.io/librec/datasets.html) |
-| [Data poisoning attacks on cross-domain recommendation](https://dl.acm.org/doi/10.1145/3357384.3358116) | CIKM | 2019 | Data: [NF](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data), [ML](https://grouplens.org/datasets/movielens/100k/) |
-| [Practical data poisoning attack against next-item recommendation](https://dl.acm.org/doi/10.1145/3366423.3379992) | WWW | 2020 | Data: [ABT](http://jmcauley.ucsd.edu/data/amazon/) |
-| [Influence function based data poisoning attacks to top-n recommender systems](https://dl.acm.org/doi/10.1145/3366423.3380072) | WWW | 2020 | Data: [YE](https://www.kaggle.com/c/yelp-recruiting/data), [ADM](http://jmcauley.ucsd.edu/data/amazon/) |
-| [Data poisoning attacks on neighborhoodbased recommender systems](https://onlinelibrary.wiley.com/doi/full/10.1002/ett.3872) | ETT | 2021 | Data: [FT](https://guoguibing.github.io/librec/datasets.html), [ML](https://grouplens.org/datasets/movielens/100k/), [AMV](http://jmcauley.ucsd.edu/data/amazon/) |
-| [Data Poisoning Attack against Recommender System Using Incomplete and Perturbed Data](https://dl.acm.org/doi/10.1145/3447548.3467233) | KDD | 2021 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [AIV](http://jmcauley.ucsd.edu/data/amazon/) |
-| [Black-Box Attacks on Sequential Recommenders via Data-Free Model Extraction](https://dl.acm.org/doi/10.1145/3460231.3474275) | RecSys | 2021 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [ABT](http://jmcauley.ucsd.edu/data/amazon/) <br> Code: [Python](https://github.com/Yueeeeeeee/RecSys-Extraction-Attack) |
-| [Poisoning attacks against knowledge graph-based recommendation systems using deep reinforcement learning](https://dl.acm.org/doi/abs/10.1007/s00521-021-06573-8) | Neural. Comput. Appl. | 2021 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [FTr](#) |
-| [Adversarial Item Promotion: Vulnerabilities at the Core of Top-N Recommenders that Use Images to Address Cold Start](https://dl.acm.org/doi/10.1145/3442381.3449891) | WWW | 2021 | Data: [AMM](http://jmcauley.ucsd.edu/data/amazon/), [TC](https://www.tradesy.com/) <br> Code: [Python](https://github.com/liuzrcc/AIP) |
-| [Data poisoning attacks to deep learning based recommender systems](https://arxiv.org/pdf/2012.10544.pdf) | arXiv | 2021 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [LA](http://millionsongdataset.com/lastfm/) |
-| [Pipattack: Poisoning federated recommender systems for manipulating item promotion](https://dl.acm.org/doi/10.1145/3488560.3498386) | WSDM | 2022 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [AMP](http://jmcauley.ucsd.edu/data/amazon/) |
-| [Poisoning Deep Learning based Recommender Model in Federated Learning Scenarios](https://www.ijcai.org/proceedings/2022/0306.pdf) | IJCAI | 2022 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [AMD](http://jmcauley.ucsd.edu/data/amazon/) <br> Code: [Python](https://github.com/rdz98/PoisonFedDLRS) |
-| [FedAttack: Effective and Covert Poisoning Attack on Federated Recommendation via Hard Sampling](https://arxiv.org/pdf/2202.04975.pdf) | Arxiv | 2022 | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [ABT](http://jmcauley.ucsd.edu/data/amazon/)  <br> Code: [Python](https://github.com/wuch15/FedAttack) |
-| [UA-FedRec: Untargeted Attack on Federated News Recommendation](https://arxiv.org/abs/2202.06701) | Arxiv | 2022 | Data: [MIND](https://msnews.github.io/), [Feeds](https://play.google.com/store/apps/details?id=com.microsoft.amp.apps.bingnews&hl=en&gl=US&pli=1)  <br> Code: [Python](https://github.com/yjw1029/UA-FedRec) |
-| [Poisoning GNN-based recommender systems with generative surrogate-based attacks](https://doi.org/10.1145/3567420) | ACM TOIS | 2023 | Data: [FR](https://arxiv.org/abs/1505.03014), [ML](https://grouplens.org/datasets/movielens/100k/), [AM](http://jmcauley.ucsd.edu/data/amazon/), [LF](http://millionsongdataset.com/lastfm/) |
+| [Data poisoning attacks on factorization-based collaborative filtering](https://proceedings.neurips.cc/paper/2016/hash/83fa5a432ae55c253d0e60dbfa716723-Abstract.html) | NIPS | 2016 | Model-intrinsic | Data: [ML](https://grouplens.org/datasets/movielens/100k/) <br> Code: [Python](https://github.com/fuying-wang/Data-poisoning-attacks-on-factorization-based-collaborative-filtering) |
+| [Fake Co-visitation Injection Attacks to Recommender Systems](https://people.duke.edu/~zg70/papers/ndss17-attackRS.pdf) | NDSS | 2017 | Model-intrinsic | Data: [YT](https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset), [eB](https://www.kaggle.com/datasets/promptcloud/ebay-product-listing-dataset), [AMV](http://jmcauley.ucsd.edu/data/amazon/), [YE](https://www.kaggle.com/c/yelp-recruiting/data), [LI](https://www.kaggle.com/datasets/killbot/linkedin) |
+| [Poisoning attacks to graph-based recommender systems](https://dl.acm.org/doi/10.1145/3274694.3274706) | ACSAC | 2018 | Model-intrinsic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [AMV](http://jmcauley.ucsd.edu/data/amazon/) |
+| [Adversarial attacks on an oblivious recommender](https://dl.acm.org/doi/10.1145/3298689.3347031) | RecSys | 2019 | Model-intrinsic | Data: [ML](https://grouplens.org/datasets/movielens/100k/) |
+| [Targeted poisoning attacks on social recommender systems](https://ieeexplore.ieee.org/document/9013539) | GLOBECOM | 2019 | Model-intrinsic | Data: [FT](https://guoguibing.github.io/librec/datasets.html) |
+| [Data poisoning attacks on cross-domain recommendation](https://dl.acm.org/doi/10.1145/3357384.3358116) | CIKM | 2019 | Model-intrinsic | Data: [NF](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data), [ML](https://grouplens.org/datasets/movielens/100k/) |
+| [Practical data poisoning attack against next-item recommendation](https://dl.acm.org/doi/10.1145/3366423.3379992) | WWW | 2020 | Model-intrinsic | Data: [ABT](http://jmcauley.ucsd.edu/data/amazon/) |
+| [Influence function based data poisoning attacks to top-n recommender systems](https://dl.acm.org/doi/10.1145/3366423.3380072) | WWW | 2020 | Model-intrinsic | Data: [YE](https://www.kaggle.com/c/yelp-recruiting/data), [ADM](http://jmcauley.ucsd.edu/data/amazon/) |
+| [Data poisoning attacks on neighborhoodbased recommender systems](https://onlinelibrary.wiley.com/doi/full/10.1002/ett.3872) | ETT | 2021 | Model-intrinsic | Data: [FT](https://guoguibing.github.io/librec/datasets.html), [ML](https://grouplens.org/datasets/movielens/100k/), [AMV](http://jmcauley.ucsd.edu/data/amazon/) |
+| [Data Poisoning Attack against Recommender System Using Incomplete and Perturbed Data](https://dl.acm.org/doi/10.1145/3447548.3467233) | KDD | 2021 | Model-intrinsic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [AIV](http://jmcauley.ucsd.edu/data/amazon/) |
+| [Black-Box Attacks on Sequential Recommenders via Data-Free Model Extraction](https://dl.acm.org/doi/10.1145/3460231.3474275) | RecSys | 2021 | Model-intrinsic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [ABT](http://jmcauley.ucsd.edu/data/amazon/) <br> Code: [Python](https://github.com/Yueeeeeeee/RecSys-Extraction-Attack) |
+| [Poisoning attacks against knowledge graph-based recommendation systems using deep reinforcement learning](https://dl.acm.org/doi/abs/10.1007/s00521-021-06573-8) | Neural. Comput. Appl. | 2021 | Model-intrinsic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [FTr](#) |
+| [Adversarial Item Promotion: Vulnerabilities at the Core of Top-N Recommenders that Use Images to Address Cold Start](https://dl.acm.org/doi/10.1145/3442381.3449891) | WWW | 2021 | Model-intrinsic | Data: [AMM](http://jmcauley.ucsd.edu/data/amazon/), [TC](https://www.tradesy.com/) <br> Code: [Python](https://github.com/liuzrcc/AIP) |
+| [Data poisoning attacks to deep learning based recommender systems](https://arxiv.org/pdf/2012.10544.pdf) | arXiv | 2021 | Model-intrinsic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [LA](http://millionsongdataset.com/lastfm/) |
+| [Pipattack: Poisoning federated recommender systems for manipulating item promotion](https://dl.acm.org/doi/10.1145/3488560.3498386) | WSDM | 2022 | Model-intrinsic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [AMP](http://jmcauley.ucsd.edu/data/amazon/) |
+| [Poisoning Deep Learning based Recommender Model in Federated Learning Scenarios](https://www.ijcai.org/proceedings/2022/0306.pdf) | IJCAI | 2022 | Model-intrinsic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [AMD](http://jmcauley.ucsd.edu/data/amazon/) <br> Code: [Python](https://github.com/rdz98/PoisonFedDLRS) |
+| [FedAttack: Effective and Covert Poisoning Attack on Federated Recommendation via Hard Sampling](https://arxiv.org/pdf/2202.04975.pdf) | Arxiv | 2022 | Model-intrinsic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [ABT](http://jmcauley.ucsd.edu/data/amazon/)  <br> Code: [Python](https://github.com/wuch15/FedAttack) |
+| [UA-FedRec: Untargeted Attack on Federated News Recommendation](https://arxiv.org/abs/2202.06701) | Arxiv | 2022 | Model-intrinsic | Data: [MIND](https://msnews.github.io/), [Feeds](https://play.google.com/store/apps/details?id=com.microsoft.amp.apps.bingnews&hl=en&gl=US&pli=1)  <br> Code: [Python](https://github.com/yjw1029/UA-FedRec) |
+| [Poisoning GNN-based recommender systems with generative surrogate-based attacks](https://doi.org/10.1145/3567420) | ACM TOIS | 2023 | Model-intrinsic | Data: [FR](https://arxiv.org/abs/1505.03014), [ML](https://grouplens.org/datasets/movielens/100k/), [AM](http://jmcauley.ucsd.edu/data/amazon/), [LF](http://millionsongdataset.com/lastfm/) |
 
 
 ----------
@@ -96,52 +86,48 @@ Model-intrinsic attacks are designed and optimised for a specific type of RS. He
 ## Detection Methods
 In this section, we review detection methods in more detail, starting with supervised methods, before turning to semi-supervised methods and unsupervised methods
 
-### Supervised
-| **Paper** | **Venue** | **Year** |
-| --- | --- | --- | 
-| [Preventing shilling attacks in online recommender systems](https://dl.acm.org/doi/10.1145/1097047.1097061) | WIDM | 2005 |
-| [Classification features for attack detection in collaborative recommender systems](https://dl.acm.org/doi/10.1145/1150402.1150465) | KDD | 2006 | 
-| [Detecting profile injection attacks in collaborative recommender systems](https://dl.acm.org/doi/10.1109/CEC-EEE.2006.34) | CEC-EEE | 2006 | 
-| [Toward trustworthy recommender systems: An analysis of attack models and algorithm robustness](https://dl.acm.org/doi/10.1145/1278366.1278372) | TOIT | 2007 | 
-| [A Meta-learning-based Approach for Detecting Profile Injection Attacks in Collaborative Recommender Systems](http://www.jcomputers.us/vol7/jcp0701-26.pdf) | J. Comput. | 2012 | 
-| [HHT–SVM: An online method for detecting profile injection attacks in collaborative recommender systems](https://www.sciencedirect.com/science/article/pii/S0950705114001427) | KBS | 2014 | 
-| [SVM-TIA a shilling attack detection method based on SVM and target item analysis in recommender systems](https://dl.acm.org/doi/10.1016/j.neucom.2015.12.137) | J. Neucom. | 2016 | 
-| [Re-scale AdaBoost for attack detection in collaborative filtering recommender systems](https://www.sciencedirect.com/science/article/pii/S0950705116000861) | KBS | 2016 | 
-| [Detecting shilling attacks with automatic features from multiple views](https://www.hindawi.com/journals/scn/2019/6523183/) | Secur. Commun. Netw. | 2019 | 
-| [Detecting shilling attacks in social recommender systems based on time series analysis and trust features](https://dl.acm.org/doi/abs/10.1016/j.knosys.2019.04.012) | KBS | 2019 | 
-| [Recommendation attack detection based on deep learning](https://www.sciencedirect.com/science/article/pii/S2214212619306131) | JISA | 2020 | 
 
-### Semi Supervised
-| **Paper** | **Venue** | **Year** | 
-| --- | --- | --- | 
-| [HySAD: A semi-supervised hybrid shilling attack detector for trustworthy product recommendation](https://dl.acm.org/doi/10.1145/2339530.2339684) | KDD | 2012 | 
-| [Shilling attack detection utilizing semi-supervised learning method for collaborative recommender system](https://link.springer.com/article/10.1007/s11280-012-0164-6) | WWW | 2013 | 
+| **Paper** | **Venue** | **Year** | **Type** | **Code** |
+| --- | --- | --- | --- | --- |
+| [Preventing shilling attacks in online recommender systems](https://dl.acm.org/doi/10.1145/1097047.1097061) | WIDM | 2005 | Supervised | - |
+| [Classification features for attack detection in collaborative recommender systems](https://dl.acm.org/doi/10.1145/1150402.1150465) | KDD | 2006 | Supervised | - |
+| [Detecting profile injection attacks in collaborative recommender systems](https://dl.acm.org/doi/10.1109/CEC-EEE.2006.34) | CEC-EEE | 2006 | Supervised | - |
+| [Toward trustworthy recommender systems: An analysis of attack models and algorithm robustness](https://dl.acm.org/doi/10.1145/1278366.1278372) | TOIT | 2007 | Supervised | - |
+| [A Meta-learning-based Approach for Detecting Profile Injection Attacks in Collaborative Recommender Systems](http://www.jcomputers.us/vol7/jcp0701-26.pdf) | J. Comput. | 2012 | Supervised | - |
+| [HHT–SVM: An online method for detecting profile injection attacks in collaborative recommender systems](https://www.sciencedirect.com/science/article/pii/S0950705114001427) | KBS | 2014 | Supervised | - |
+| [SVM-TIA a shilling attack detection method based on SVM and target item analysis in recommender systems](https://dl.acm.org/doi/10.1016/j.neucom.2015.12.137) | J. Neucom. | 2016 | Supervised | - |
+| [Re-scale AdaBoost for attack detection in collaborative filtering recommender systems](https://www.sciencedirect.com/science/article/pii/S0950705116000861) | KBS | 2016 | Supervised | - |
+| [Detecting shilling attacks with automatic features from multiple views](https://www.hindawi.com/journals/scn/2019/6523183/) | Secur. Commun. Netw. | 2019 | Supervised | - |
+| [Detecting shilling attacks in social recommender systems based on time series analysis and trust features](https://dl.acm.org/doi/abs/10.1016/j.knosys.2019.04.012) | KBS | 2019 | Supervised | - |
+| [Recommendation attack detection based on deep learning](https://www.sciencedirect.com/science/article/pii/S2214212619306131) | JISA | 2020 | Supervised | - |
 
-### UnSupervised
-| **Paper** | **Venue** | **Year** | 
-| --- | --- | --- | 
-| [Attack detection in time series for recommender systems](https://dl.acm.org/doi/10.1145/1150402.1150508) | KDD | 2006 | 
-| [Lies and propaganda: detecting spam users in collaborative filtering](https://dl.acm.org/doi/10.1145/1216295.1216307) | IUI | 2007 | 
-| [Unsupervised retrieval of attack profiles in collaborative recommender systems](https://dl.acm.org/doi/10.1145/1454008.1454034) | RecSys | 2008 | 
-| [Unsupervised strategies for shilling detection and robust collaborative filtering](https://link.springer.com/article/10.1007/s11257-008-9050-4) | User Model. User-Adapt. Interact. | 2009 | 
-| [A clustering approach to unsupervised attack detection in collaborative recommender systems](https://www.semanticscholar.org/paper/A-Clustering-Approach-to-Unsupervised-Attack-in-Bhaumik-Mobasher/5da857634542a5d2e9b67158fbe2d93afc99412c) | ICDATA | 2011 | 
-| [𝛽P: A novel approach to filter out malicious rating profiles from recommender systems](https://dl.acm.org/doi/abs/10.1016/j.dss.2013.01.020) | DSS | 2013 | 
-| [A novel shilling attack detection method](https://www.sciencedirect.com/science/article/pii/S1877050914004347) | Procedia Comput. Sci. | 2014 | 
-| [Detection of abnormal profiles on group attacks in recommender systems](https://dl.acm.org/doi/10.1145/2600428.2609483) | SIGIR | 2014 | 
-| [Catch the black sheep: unified framework for shilling attack detection based on fraudulent action propagation](https://dl.acm.org/doi/10.5555/2832581.2832585) | IJCAI | 2015 | 
-| [Shilling attacks detection in recommender systems based on target item analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0130968) | Plos One | 2015 | 
-| [A novel item anomaly detection approach against shilling attacks in collaborative recommendation systems using the dynamic time interval segmentation technique](https://dl.acm.org/doi/abs/10.1016/j.ins.2015.02.019) | IS | 2015 | 
-| [Estimating user behavior toward detecting anomalous ratings in rating systems](https://dl.acm.org/doi/10.1016/j.knosys.2016.08.011) | KBS | 2016 | 
-| [Spotting anomalous ratings for rating systems by analyzing target users and items](https://dl.acm.org/doi/abs/10.1016/j.neucom.2017.02.052) | Neurocomputing | 2017 | 
-| [UD-HMM: An unsupervised method for shilling attack detection based on hidden Markov model and hierarchical clustering](https://www.sciencedirect.com/science/article/pii/S0950705118300959) | KBS | 2018 | 
-| [Shilling attack detection for recommender systems based on credibility of group users and rating time series](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196533) | Plos One | 2018 | 
-| [BS-SC: An Unsupervised Approach for Detecting Shilling Profiles in Collaborative Recommender Systems](https://ieeexplore.ieee.org/document/8862947) | TKDE | 2019 |
-| [Detecting shilling attacks in recommender systems based on analysis of user rating behavior](https://dl.acm.org/doi/abs/10.1016/j.knosys.2019.04.001) | KBS | 2019 | 
-| [Trustworthy and profit: A new value-based neighbor selection method in recommender systems under shilling attacks](https://dl.acm.org/doi/10.1016/j.dss.2019.113112) | DSS | 2019 | 
-| [Quick and accurate attack detection in recommender systems through user attributes](https://dl.acm.org/doi/10.1145/3298689.3347050) | RecSys | 2019 | 
-| [Identification of Malicious Injection Attacks in Dense Rating and Co-Visitation Behaviors](https://dl.acm.org/doi/10.1109/TIFS.2020.3016827) | TIFS | 2020 | 
-| [An unsupervised detection method for shilling attacks based on deep learning and community detection](https://dl.acm.org/doi/abs/10.1007/s00500-020-05162-6) | Soft Comput. | 2021 | 
-| [Anti-FakeU: Defending Shilling Attacks on Graph Neural Network based Recommender Model](https://doi.org/10.1145/3543507.3583289) | WWW | 2023 | 
+
+| [HySAD: A semi-supervised hybrid shilling attack detector for trustworthy product recommendation](https://dl.acm.org/doi/10.1145/2339530.2339684) | KDD | 2012 | Semi Supervised | - |
+| [Shilling attack detection utilizing semi-supervised learning method for collaborative recommender system](https://link.springer.com/article/10.1007/s11280-012-0164-6) | WWW | 2013 | Semi Supervised | - |
+
+
+| [Attack detection in time series for recommender systems](https://dl.acm.org/doi/10.1145/1150402.1150508) | KDD | 2006 | UnSupervised | - |
+| [Lies and propaganda: detecting spam users in collaborative filtering](https://dl.acm.org/doi/10.1145/1216295.1216307) | IUI | 2007 | UnSupervised | - |
+| [Unsupervised retrieval of attack profiles in collaborative recommender systems](https://dl.acm.org/doi/10.1145/1454008.1454034) | RecSys | 2008 | UnSupervised | - |
+| [Unsupervised strategies for shilling detection and robust collaborative filtering](https://link.springer.com/article/10.1007/s11257-008-9050-4) | User Model. User-Adapt. Interact. | 2009 | UnSupervised | - |
+| [A clustering approach to unsupervised attack detection in collaborative recommender systems](https://www.semanticscholar.org/paper/A-Clustering-Approach-to-Unsupervised-Attack-in-Bhaumik-Mobasher/5da857634542a5d2e9b67158fbe2d93afc99412c) | ICDATA | 2011 | UnSupervised | - |
+| [𝛽P: A novel approach to filter out malicious rating profiles from recommender systems](https://dl.acm.org/doi/abs/10.1016/j.dss.2013.01.020) | DSS | 2013 | UnSupervised | - |
+| [A novel shilling attack detection method](https://www.sciencedirect.com/science/article/pii/S1877050914004347) | Procedia Comput. Sci. | 2014 | UnSupervised | - |
+| [Detection of abnormal profiles on group attacks in recommender systems](https://dl.acm.org/doi/10.1145/2600428.2609483) | SIGIR | 2014 | UnSupervised | - |
+| [Catch the black sheep: unified framework for shilling attack detection based on fraudulent action propagation](https://dl.acm.org/doi/10.5555/2832581.2832585) | IJCAI | 2015 | UnSupervised | - |
+| [Shilling attacks detection in recommender systems based on target item analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0130968) | Plos One | 2015 | UnSupervised | - |
+| [A novel item anomaly detection approach against shilling attacks in collaborative recommendation systems using the dynamic time interval segmentation technique](https://dl.acm.org/doi/abs/10.1016/j.ins.2015.02.019) | IS | 2015 | UnSupervised | - |
+| [Estimating user behavior toward detecting anomalous ratings in rating systems](https://dl.acm.org/doi/10.1016/j.knosys.2016.08.011) | KBS | 2016 | UnSupervised | - |
+| [Spotting anomalous ratings for rating systems by analyzing target users and items](https://dl.acm.org/doi/abs/10.1016/j.neucom.2017.02.052) | Neurocomputing | 2017 | UnSupervised | - | 
+| [UD-HMM: An unsupervised method for shilling attack detection based on hidden Markov model and hierarchical clustering](https://www.sciencedirect.com/science/article/pii/S0950705118300959) | KBS | 2018 | UnSupervised | - |
+| [Shilling attack detection for recommender systems based on credibility of group users and rating time series](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196533) | Plos One | 2018 | UnSupervised | - |
+| [BS-SC: An Unsupervised Approach for Detecting Shilling Profiles in Collaborative Recommender Systems](https://ieeexplore.ieee.org/document/8862947) | TKDE | 2019 | UnSupervised | - |
+| [Detecting shilling attacks in recommender systems based on analysis of user rating behavior](https://dl.acm.org/doi/abs/10.1016/j.knosys.2019.04.001) | KBS | 2019 | UnSupervised | - |
+| [Trustworthy and profit: A new value-based neighbor selection method in recommender systems under shilling attacks](https://dl.acm.org/doi/10.1016/j.dss.2019.113112) | DSS | 2019 | UnSupervised | - |
+| [Quick and accurate attack detection in recommender systems through user attributes](https://dl.acm.org/doi/10.1145/3298689.3347050) | RecSys | 2019 | UnSupervised | - |
+| [Identification of Malicious Injection Attacks in Dense Rating and Co-Visitation Behaviors](https://dl.acm.org/doi/10.1109/TIFS.2020.3016827) | TIFS | 2020 | UnSupervised | - |
+| [An unsupervised detection method for shilling attacks based on deep learning and community detection](https://dl.acm.org/doi/abs/10.1007/s00500-020-05162-6) | Soft Comput. | 2021 | UnSupervised | - |
+| [Anti-FakeU: Defending Shilling Attacks on Graph Neural Network based Recommender Model](https://doi.org/10.1145/3543507.3583289) | WWW | 2023 | UnSupervised | - |
 
 
 ----------
