@@ -54,7 +54,7 @@ recommendation. As such, the quality of the ML model depends on the quality of t
 | [Pipattack: Poisoning federated recommender systems for manipulating item promotion](https://dl.acm.org/doi/10.1145/3488560.3498386) | WSDM | 2022 | Model-intrinsic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [AMP](http://jmcauley.ucsd.edu/data/amazon/) |
 | [Poisoning Deep Learning based Recommender Model in Federated Learning Scenarios](https://www.ijcai.org/proceedings/2022/0306.pdf) | IJCAI | 2022 | Model-intrinsic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [AMD](http://jmcauley.ucsd.edu/data/amazon/) <br> Code: [Python](https://github.com/rdz98/PoisonFedDLRS) |
 | [FedAttack: Effective and Covert Poisoning Attack on Federated Recommendation via Hard Sampling](https://arxiv.org/pdf/2202.04975.pdf) | Arxiv | 2022 | Model-intrinsic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [ABT](http://jmcauley.ucsd.edu/data/amazon/)  <br> Code: [Python](https://github.com/wuch15/FedAttack) |
-| [UA-FedRec: Untargeted Attack on Federated News Recommendation](https://arxiv.org/abs/2202.06701) | Arxiv | 2022 | Model-intrinsic | Data: [MIND](https://msnews.github.io/), [Feeds](https://play.google.com/store/apps/details?id=com.microsoft.amp.apps.bingnews&hl=en&gl=US&pli=1)  <br> Code: [Python](https://github.com/yjw1029/UA-FedRec) |
+| [UA-FedRec: Untargeted Attack on Federated News Recommendation](https://arxiv.org/abs/2202.06701) | Arxiv | 2022 | Model-intrinsic | Data: [MIND](https://msnews.github.io/)  <br> Code: [Python](https://github.com/yjw1029/UA-FedRec) |
 | [Triple Adversarial Learning for Influence based Poisoning Attack in Recommender Systems](https://dl.acm.org/doi/10.1145/3447548.3467335) | KDD | 2021 | Model-agnostic | Data:  [ML](https://grouplens.org/datasets/movielens/100k/), [FT](https://guoguibing.github.io/librec/datasets.html) <br> Code: [Python](https://github.com/Daftstone/TrialAttack) |
 | [Reverse Attack: Black-box Attacks on Collaborative Recommendation](https://dl.acm.org/doi/10.1145/3460120.3484805) | CSS | 2021 | Model-agnostic | Data:  [ML](https://grouplens.org/datasets/movielens/100k/), [NF](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data), [AMB & ADM](http://jmcauley.ucsd.edu/data/amazon/), [TW](https://dl.acm.org/doi/10.1145/1772690.1772751), [G+](https://dl.acm.org/doi/10.5555/2999134.2999195), [CIT](https://www.aminer.org/citation/)  |
 | [Attacking Black-box Recommendations via Copying Cross-domain User Profiles](https://ieeexplore.ieee.org/document/9458627) | ICDE | 2021 | Model-agnostic | Data: [ML](https://grouplens.org/datasets/movielens/100k/), [NF](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data) |
@@ -130,8 +130,38 @@ In this section, we review detection methods in more detail, starting with super
 
 | Dataset | Name |
 | :-- | --- |
-| YT | Youtube |
-| eB | Ebay |
+| YT    | YouTube                     |
+| eB    | eBay                        |
+| AMV   | Amazon Movie                |
+| YE    | Yelp                        |
+| LI    | Linkin                      |
+| ML    | MovieLens                   |
+| FT    | Film Trust                  |
+| St    | Steam                       |
+| GOW   | Gowalla                     |
+| ABT   | Amazon Beauty               |
+| AAT   | Amazon Automotive           |
+| ADM   | Amazon Digital Music        |
+| AIV   | Amazon Instant Video        |
+| THI   | Tool and Home Improvement   |
+| GGF   | Grocery and Gourmet Food    |
+| FR    | App Recommendation          |
+| AMB   | Amazon Book                 |
+| NF    | Netflix                     |
+| TW    | Twitter                     |
+| G+    | Google+                     |
+| CIT   | Citation Network            |
+| FTr   | Fund Transaction            |
+| DB    | Douban                      |
+| CI    | Ciao                        |
+| AMM   | Amazon Men                  |
+| TC    | Tradesy                     |
+| LA    | Last.fm                     |
+| AMP   | Amazon Cell-phone           |
+| BC    | Book-Crossing               |
+| AA    | Apps for Android            |
+| MIND  | Microsoft News           |
+
 
 
 
