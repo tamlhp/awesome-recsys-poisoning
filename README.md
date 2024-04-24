@@ -1,6 +1,7 @@
 # A Survey of Poisoning Attacks and Countermeasures in Recommender Systems
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![arXiv](https://img.shields.io/badge/arXiv-2404.14942-b31b1b.svg)](https://arxiv.org/abs/2404.14942)
 [![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=Official%20Website&up_color=green&up_message=online&url=https%3A%2F%2Fawesome-recsys-poisoning.github.io%2F)](https://awesome-recsys-poisoning.github.io/)
 ![GitHub stars](https://img.shields.io/github/stars/tamlhp/awesome-recsys-poisoning?color=yellow&label=Stars)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftamlhp%2Fawesome-recsys-poisoning%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -22,6 +23,8 @@ A repository of poison attacks against recommender systems, as well as their cou
 
 A sortable version is available here: https://awesome-recsys-poisoning.github.io/
 
+Please read and cite our paper: [![arXiv](https://img.shields.io/badge/arXiv-2404.14942-b31b1b.svg)](https://arxiv.org/abs/2404.14942)
+
 
 ----------
 
@@ -42,7 +45,7 @@ A sortable version is available here: https://awesome-recsys-poisoning.github.io
 
 ## Taxonomy
 
-[![taxonomy](figs/taxonomy.png)](https://arxiv.org)
+[![taxonomy](figs/taxonomy.png)](https://arxiv.org/abs/2404.14942)
 
 
 ----------
@@ -52,7 +55,7 @@ A sortable version is available here: https://awesome-recsys-poisoning.github.io
 
 Poisoning attacks are the process of tampering with the training data of a  machine learning (ML) model in order to corrupt its availability and integrity. Below figure presents the typical process of a poisoning attack  compared to the normal learning process. In the latter case, an ML  model is trained based on data, which is subsequently used to derive a 
 recommendation. As such, the quality of the ML model depends on the quality of the data used for training. In a poisoning attack, data is injected into the training process, and hence the model, to produce unintended or harmful conclusions. 
-[![Attack-Process](figs/attack_process.png)](https://arxiv.org)
+[![Attack-Process](figs/attack_process.png)](https://arxiv.org/abs/2404.14942)
 
 
 | **Paper** | **Venue** | **Year** | **Type** | **Data** | **Code** |
