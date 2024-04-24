@@ -183,7 +183,7 @@ In this section, we review detection methods in more detail, starting with super
 
 Feel free to contact us if you have any queries or exciting news. In addition, we welcome all researchers to contribute to this repository and further contribute to the knowledge of this field.
 
-If you have some other related references, please feel free to create a Github issue with the paper information. We will glady update the repos according to your suggestions. (You can also create pull requests, but it might take some time for us to do the merge)
+If you have some other related references, please feel free to create a Github issue with the paper information. We will gladly update the repos according to your suggestions. (You can also create pull requests, but it might take some time for us to do the merge)
 
 
 [![HitCount](https://hits.dwyl.com/tamlhp/awesome-recsys-poisoning.svg?style=flat-square)](http://hits.dwyl.com/tamlhp/awesome-recsys-poisoning)
