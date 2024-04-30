@@ -60,11 +60,11 @@ recommendation. As such, the quality of the ML model depends on the quality of t
 
 | **Paper** | **Venue** | **Year** | **Type** | **Data** | **Code** |
 | --- | --- | --- | --- | --- | --- |
-| [Poisoning GNN-based recommender systems with generative surrogate-based attacks](https://doi.org/10.1145/3567420) | ACM TOIS | 2023 | Model-intrinsic | [FR](https://arxiv.org/abs/1505.03014), [ML](https://grouplens.org/datasets/movielens/100k/), [AM](http://jmcauley.ucsd.edu/data/amazon/), [LF](http://millionsongdataset.com/lastfm/) | - |
+| [Poisoning GNN-based recommender systems with generative surrogate-based attacks](https://doi.org/10.1145/3567420) | ACM TOIS | 2023 | Model-intrinsic | [FR](https://arxiv.org/abs/1505.03014), [ML](https://grouplens.org/datasets/movielens/100k/), [AMCP](http://jmcauley.ucsd.edu/data/amazon/), [LF](http://millionsongdataset.com/lastfm/) | - |
 | [Shilling Black-Box Recommender Systems by Learning to Generate Fake User Profiles](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9806457) | IEEE Trans. Neural Netw. Learn. Syst | 2022 | Model-agnostic | [ML](https://grouplens.org/datasets/movielens/100k/), [FT](https://guoguibing.github.io/librec/datasets.html), [YE](https://www.kaggle.com/c/yelp-recruiting/data), [AAT](http://jmcauley.ucsd.edu/data/amazon/) | - |
 | [Knowledgeenhanced Black-box Attacks for Recommendations](https://dl.acm.org/doi/abs/10.1145/3534678.3539359) | KDD | 2022 | Model-agnostic | [ML](https://grouplens.org/datasets/movielens/100k/), [BC](https://www.kaggle.com/datasets/somnambwl/bookcrossing-dataset), [LA](http://millionsongdataset.com/lastfm/)  | - |
 | [LOKI: A Practical Data Poisoning Attack Frameworkagainst Next Item Recommendations](https://ieeexplore.ieee.org/document/9806383) | TKDE | 2022 | Model-agnostic | [ABT](http://jmcauley.ucsd.edu/data/amazon/), [St](https://www.kaggle.com/datasets/tamber/steam-video-games),[GOW](http://snap.stanford.edu/data/loc-Gowalla.html)  | - |
-| [Pipattack: Poisoning federated recommender systems for manipulating item promotion](https://dl.acm.org/doi/10.1145/3488560.3498386) | WSDM | 2022 | Model-intrinsic | [ML](https://grouplens.org/datasets/movielens/100k/), [AMP](http://jmcauley.ucsd.edu/data/amazon/) | - |
+| [Pipattack: Poisoning federated recommender systems for manipulating item promotion](https://dl.acm.org/doi/10.1145/3488560.3498386) | WSDM | 2022 | Model-intrinsic | [ML](https://grouplens.org/datasets/movielens/100k/), [AMCP](http://jmcauley.ucsd.edu/data/amazon/) | - |
 | [Poisoning Deep Learning based Recommender Model in Federated Learning Scenarios](https://www.ijcai.org/proceedings/2022/0306.pdf) | IJCAI | 2022 | Model-intrinsic | [ML](https://grouplens.org/datasets/movielens/100k/), [ADM](http://jmcauley.ucsd.edu/data/amazon/) | [Python](https://github.com/rdz98/PoisonFedDLRS) |
 | [FedAttack: Effective and Covert Poisoning Attack on Federated Recommendation via Hard Sampling](https://arxiv.org/pdf/2202.04975.pdf) | Arxiv | 2022 | Model-intrinsic | [ML](https://grouplens.org/datasets/movielens/100k/), [ABT](http://jmcauley.ucsd.edu/data/amazon/)  | [Python](https://github.com/wuch15/FedAttack) |
 | [UA-FedRec: Untargeted Attack on Federated News Recommendation](https://arxiv.org/abs/2202.06701) | Arxiv | 2022 | Model-intrinsic | [MIND](https://msnews.github.io/)  | [Python](https://github.com/yjw1029/UA-FedRec) | - |
@@ -77,7 +77,7 @@ recommendation. As such, the quality of the ML model depends on the quality of t
 | [Data Poisoning Attack against Recommender System Using Incomplete and Perturbed Data](https://dl.acm.org/doi/10.1145/3447548.3467233) | KDD | 2021 | Model-intrinsic | [ML](https://grouplens.org/datasets/movielens/100k/), [AIV](http://jmcauley.ucsd.edu/data/amazon/) | - |
 | [Black-Box Attacks on Sequential Recommenders via Data-Free Model Extraction](https://dl.acm.org/doi/10.1145/3460231.3474275) | RecSys | 2021 | Model-intrinsic | [ML](https://grouplens.org/datasets/movielens/100k/), [ABT](http://jmcauley.ucsd.edu/data/amazon/) | [Python](https://github.com/Yueeeeeeee/RecSys-Extraction-Attack) |
 | [Poisoning attacks against knowledge graph-based recommendation systems using deep reinforcement learning](https://dl.acm.org/doi/abs/10.1007/s00521-021-06573-8) | Neural. Comput. Appl. | 2021 | Model-intrinsic | [ML](https://grouplens.org/datasets/movielens/100k/), [FTr](#) | - |
-| [Adversarial Item Promotion: Vulnerabilities at the Core of Top-N Recommenders that Use Images to Address Cold Start](https://dl.acm.org/doi/10.1145/3442381.3449891) | WWW | 2021 | Model-intrinsic | [AMM](http://jmcauley.ucsd.edu/data/amazon/), [TC](https://www.tradesy.com/) | [Python](https://github.com/liuzrcc/AIP) |
+| [Adversarial Item Promotion: Vulnerabilities at the Core of Top-N Recommenders that Use Images to Address Cold Start](https://dl.acm.org/doi/10.1145/3442381.3449891) | WWW | 2021 | Model-intrinsic | [AMMN](http://jmcauley.ucsd.edu/data/amazon/), [TC](https://www.tradesy.com/) | [Python](https://github.com/liuzrcc/AIP) |
 | [Data poisoning attacks to deep learning based recommender systems](https://arxiv.org/pdf/2012.10544.pdf) | arXiv | 2021 | Model-intrinsic | [ML](https://grouplens.org/datasets/movielens/100k/), [LA](http://millionsongdataset.com/lastfm/) | - |
 | [Practical data poisoning attack against next-item recommendation](https://dl.acm.org/doi/10.1145/3366423.3379992) | WWW | 2020 | Model-intrinsic | [ABT](http://jmcauley.ucsd.edu/data/amazon/) | - |
 | [Influence function based data poisoning attacks to top-n recommender systems](https://dl.acm.org/doi/10.1145/3366423.3380072) | WWW | 2020 | Model-intrinsic | [YE](https://www.kaggle.com/c/yelp-recruiting/data), [ADM](http://jmcauley.ucsd.edu/data/amazon/) | - |
@@ -159,22 +159,24 @@ In this section, we review detection methods in more detail, starting with super
 | [eB](https://www.kaggle.com/datasets/promptcloud/ebay-product-listing-dataset) | eBay |
 | [EM](#) | Eachmovie |
 | [EP](#) | Epinions |
+| [FR](https://arxiv.org/abs/1505.03014) | FR |
 | [FT](https://guoguibing.github.io/librec/datasets.html) | Film Trust |
 | [Ftr](#) | Fund Transactions |
 | [G+](https://dl.acm.org/doi/10.5555/2999134.2999195) | Google+ |
 | [GOW](http://snap.stanford.edu/data/loc-Gowalla.html) | Gowalla |
+| [MIND](https://msnews.github.io/) | News Feed |
 | [LA](http://millionsongdataset.com/lastfm/) | Last.fm |
 | [LI](https://www.kaggle.com/datasets/killbot/linkedin) | Linkedin |
-| [LT](#) | LibraryThing |
+| [LT](https://www.librarything.com/tag/dataset) | LibraryThing |
 | [ML](https://grouplens.org/datasets/movielens/100k/) | MovieLens |
 | [NF](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data) | Netflix |
 | [St](https://www.kaggle.com/datasets/tamber/steam-video-games) | Steam |
-| [SYNC](#) | Synthetic datasets |
 | [TC](https://www.tradesy.com/) | Tradesy |
-| [Trip](#) | TripAdvisor |
+| [Trip](https://www.kaggle.com/datasets/andrewmvd/trip-advisor-hotel-reviews) | TripAdvisor |
 | [TW](https://dl.acm.org/doi/10.1145/1772690.1772751) | Twitter |
 | [YE](https://www.kaggle.com/c/yelp-recruiting/data) | Yelp |
 | [YT](https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset) | YouTube |
+| [SYNC](#) | Synthetic datasets |
 
 
 ----------
