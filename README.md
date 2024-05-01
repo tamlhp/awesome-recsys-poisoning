@@ -160,7 +160,7 @@ In this section, we review detection methods in more detail, starting with super
 | [EM](#) | Eachmovie |
 | [EP](http://www.cse.msu.edu/~tangjili/trust.html) | Epinions |
 | [Feeds](https://arxiv.org/pdf/2202.06701) | Microsoft news App |
-| [FR](https://arxiv.org/abs/1505.03014) | FR |
+| [FR](https://www.baltrunas.info/context-aware) | FRappe - Mobile App Recommendations |
 | [FT](https://guoguibing.github.io/librec/datasets.html) | Film Trust |
 | [Ftr](#) | Fund Transactions |
 | [G+](https://dl.acm.org/doi/10.5555/2999134.2999195) | Google+ |
