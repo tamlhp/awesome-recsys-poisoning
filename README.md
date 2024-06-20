@@ -23,11 +23,19 @@ A repository of poison attacks against recommender systems, as well as their cou
 
 A sortable version is available here: https://awesome-recsys-poisoning.github.io/
 
+## 🔖 News!!!
+
+📌 We are actively tracking the **latest research** and welcome contributions to our repository and survey paper. If your studies are relevant, please feel free to create an issue or a pull request.
+
+📰 2024-06-20: Our paper **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures** has been accepted by ACM Computing Surveys (CSUR) (IF 16.6, Top 2%, CORE A*) in 2024.
+
+## Citation
+
+If you find this work helpful in your research, welcome to cite the paper and give a ⭐.
+
 Please read and cite our paper: [![arXiv](https://img.shields.io/badge/arXiv-2404.14942-b31b1b.svg)](https://arxiv.org/abs/2404.14942)
 
 >Nguyen, T.T., Nguyen, Q.V.H., Nguyen, T.T., Huynh, T.T., Nguyen, T.T., Weidlich, M. and Yin, H., 2024. Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures. arXiv preprint arXiv:2404.14942.
-
-## Citation
 
 ```
 @article{nguyen2024manipulating,
