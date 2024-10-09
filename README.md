@@ -27,6 +27,8 @@ A sortable version is available here: https://awesome-recsys-poisoning.github.io
 
 📌 We are actively tracking the **latest research** and welcome contributions to our repository and survey paper. If your studies are relevant, please feel free to create an issue or a pull request.
 
+📰 2024-10-09: Our paper **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures** has been published by ACM Computing Surveys (CSUR) (IF 16.6, Top 2%, CORE A*) at [here](https://dl.acm.org/doi/10.1145/3677328).
+
 📰 2024-06-20: Our paper **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures** has been accepted by ACM Computing Surveys (CSUR) (IF 16.6, Top 2%, CORE A*) in 2024.
 
 ## Citation
