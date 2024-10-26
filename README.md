@@ -35,7 +35,7 @@ A sortable version is available here: https://awesome-recsys-poisoning.github.io
 
 If you find this work helpful in your research, welcome to cite the paper and give a ⭐.
 
-Please read and cite our paper: [https://arxiv.org/abs/2404.14942](https://dl.acm.org/doi/10.1145/3677328)
+Please read and cite our paper: [https://dl.acm.org/doi/10.1145/3677328](https://dl.acm.org/doi/10.1145/3677328)
 
 >Nguyen, T.T., Quoc Viet Hung, N., Nguyen, T.T., Huynh, T.T., Nguyen, T.T., Weidlich, M. and Yin, H., 2024. Manipulating recommender systems: A survey of poisoning attacks and countermeasures. ACM Computing Surveys.
 
