@@ -4,7 +4,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2404.14942-b31b1b.svg)](https://arxiv.org/abs/2404.14942)
 [![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=Official%20Website&up_color=green&up_message=online&url=https%3A%2F%2Fawesome-recsys-poisoning.github.io%2F)](https://awesome-recsys-poisoning.github.io/)
 ![GitHub stars](https://img.shields.io/github/stars/tamlhp/awesome-recsys-poisoning?color=yellow&label=Stars)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftamlhp%2Fawesome-recsys-poisoning%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=tamlhp.awesome-recsys-poisoning)
 <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/>
 
 A repository of poison attacks against recommender systems, as well as their countermeasures. This repository is associated with our systematic review, entitled **Manipulating Recommender Systems: A Survey of Poisoning Attacks and Countermeasures**. 
@@ -210,8 +210,13 @@ Feel free to contact us if you have any queries or exciting news. In addition, w
 
 If you have some other related references, please feel free to create a Github issue with the paper information. We will gladly update the repos according to your suggestions. (You can also create pull requests, but it might take some time for us to do the merge)
 
+-----------
+**Backup Statistics**
 
 [![HitCount](https://hits.dwyl.com/tamlhp/awesome-recsys-poisoning.svg?style=flat-square)](http://hits.dwyl.com/tamlhp/awesome-recsys-poisoning)
- ![visitors](https://visitor-badge.laobi.icu/badge?page_id=tamlhp.awesome-recsys-poisoning)
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftamlhp%2Fawesome-recsys-poisoning%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+![Visitors](https://margherita-gustatory-zane.ngrok-free.dev/badge/tamlhp%2Fawesome-recsys-poisoning.svg?ngrok-skip-browser-warning=true)
 
 
